@@ -1,3 +1,4 @@
+/** TouchGuild's documentation stylesheet. **/
 :root {
     /* Light */
     --light-color-background: rgb(255, 255, 255);
@@ -22,7 +23,7 @@
     --dark-color-background:rgb(24, 28, 31);
     --dark-color-background-secondary: rgb(24, 28, 31);
     --dark-color-icon-background: var(--dark-color-background-secondary);
-    --dark-color-accent: rgb(196, 158, 236);
+    --dark-color-accent: rgb(155, 133, 177);
     --dark-color-text: #f5f5f5;
     --dark-color-text-aside: #dddddd;
     --dark-color-link: rgb(199, 130, 255);
