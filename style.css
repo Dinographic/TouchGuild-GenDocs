@@ -5,7 +5,7 @@ html, body {
     width: 100%;
   }
   body {
-    background-color: #2C2F33;
+    background-color: rgb(24, 28, 31);
       display: table;
     font-family: "Montserrat", sans-serif;
   }
