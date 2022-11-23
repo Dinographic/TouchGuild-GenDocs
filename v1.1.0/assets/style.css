@@ -1,16 +1,17 @@
+/** TouchGuild's documentation stylesheet. **/
 :root {
     /* Light */
-    --light-color-background: #f2f4f8;
-    --light-color-background-secondary: #eff0f1;
+    --light-color-background: rgb(255, 255, 255);
+    --light-color-background-secondary: rgb(255, 255, 255);
     --light-color-icon-background: var(--light-color-background);
-    --light-color-accent: #c5c7c9;
+    --light-color-accent: rgb(52, 109, 219);
     --light-color-text: #222;
-    --light-color-text-aside: #707070;
-    --light-color-link: #4da6ff;
+    --light-color-text-aside: #443e3e;
+    --light-color-link: #4d62ff;
     --light-color-ts: #db1373;
     --light-color-ts-interface: #139d2c;
     --light-color-ts-enum: #9c891a;
-    --light-color-ts-class: #2484e5;
+    --light-color-ts-class: #2d72b8;
     --light-color-ts-function: #572be7;
     --light-color-ts-namespace: #b111c9;
     --light-color-ts-private: #707070;
@@ -19,17 +20,17 @@
     --light-color-scheme: light;
 
     /* Dark */
-    --dark-color-background: #2b2e33;
-    --dark-color-background-secondary: #1e2024;
+    --dark-color-background:rgb(24, 28, 31);
+    --dark-color-background-secondary: rgb(24, 28, 31);
     --dark-color-icon-background: var(--dark-color-background-secondary);
-    --dark-color-accent: #9096a2;
+    --dark-color-accent: rgb(155, 133, 177);
     --dark-color-text: #f5f5f5;
     --dark-color-text-aside: #dddddd;
-    --dark-color-link: #00aff4;
+    --dark-color-link: rgb(199, 130, 255);
     --dark-color-ts: #ff6492;
     --dark-color-ts-interface: #6cff87;
     --dark-color-ts-enum: #f4d93e;
-    --dark-color-ts-class: #61b0ff;
+    --dark-color-ts-class: rgb(166, 152, 255);
     --dark-color-ts-function: #9772ff;
     --dark-color-ts-namespace: #e14dff;
     --dark-color-ts-private: #e2e2e2;
