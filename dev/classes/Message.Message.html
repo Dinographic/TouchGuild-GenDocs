@@ -16,18 +16,23 @@
 <li><a href="../modules.html">TouchGuild</a></li>
 <li><a href="../modules/Message.html">Message</a></li>
 <li><a href="Message.Message.html">Message</a></li></ul>
-<h1>Class Message</h1></div>
+<h1>Class Message&lt;T&gt;</h1></div>
 <section class="tsd-panel tsd-comment">
-<div class="tsd-comment tsd-typography"><p>Message component, with all its methods and declarations.</p>
-</div></section>
+<div class="tsd-comment tsd-typography"><p>Represents a guild message.</p>
+</div></section> 
+<section class="tsd-panel tsd-type-parameters">
+<h4>Type Parameters</h4>
+<ul class="tsd-type-parameters">
+<li>
+<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/types_channel.AnyTextableChannel.html" class="tsd-signature-type" data-tsd-kind="Type alias">AnyTextableChannel</a></h4></li></ul></section> 
 <section class="tsd-panel tsd-hierarchy">
 <h4>Hierarchy</h4>
 <ul class="tsd-hierarchy">
-<li><a href="Base.Base.html" class="tsd-signature-type" data-tsd-kind="Class">Base</a>
+<li><a href="Base.Base.html" class="tsd-signature-type" data-tsd-kind="Class">Base</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span>
 <ul class="tsd-hierarchy">
 <li><span class="target">Message</span></li></ul></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L13">lib/structures/Message.ts:13</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L14">lib/structures/Message.ts:14</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -74,14 +79,20 @@
 <a href="Message.Message.html#edit" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>edit</span></a>
 <a href="Message.Message.html#editLastMessage" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>edit<wbr/>Last<wbr/>Message</span></a>
 <a href="Message.Message.html#editOriginalMessage" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>edit<wbr/>Original<wbr/>Message</span></a>
+<a href="Message.Message.html#toJSON" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>toJSON</span></a>
 </div></section></div></details></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Constructors</h2>
 <section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class"><a id="constructor" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>constructor</span><a href="#constructor" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" id="icon-anchor-a"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" id="icon-anchor-b"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" id="icon-anchor-c"></path></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
-<li class="tsd-signature tsd-anchor-link" id="constructor.new_Message">new <wbr/>Message<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><a href="../types/Constants.APIChatMessage.html" class="tsd-signature-type" data-tsd-kind="Type alias">APIChatMessage</a>, client<span class="tsd-signature-symbol">: </span><a href="Client.Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a>, params<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">{ </span><br/><span>    </span>originalMessageID<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><a href="#constructor.new_Message" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="constructor.new_Message">new <wbr/>Message<span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><a href="../types/Constants.APIChatMessage.html" class="tsd-signature-type" data-tsd-kind="Type alias">APIChatMessage</a>, client<span class="tsd-signature-symbol">: </span><a href="Client.Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a>, params<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">{ </span><br/><span>    </span>originalMessageID<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span><a href="#constructor.new_Message" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
+<section class="tsd-panel tsd-type-parameters">
+<h4>Type Parameters</h4>
+<ul class="tsd-type-parameters">
+<li>
+<h4>T<span class="tsd-signature-symbol"> extends </span><a href="TextChannel.TextChannel.html" class="tsd-signature-type" data-tsd-kind="Class">TextChannel</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span></h4></li></ul></section>
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
@@ -94,10 +105,10 @@
 <ul class="tsd-parameters">
 <li class="tsd-parameter">
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> original<wbr/>MessageID<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5></li></ul></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <p>Overrides <a href="Base.Base.html">Base</a>.<a href="Base.Base.html#constructor">constructor</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L50">lib/structures/Message.ts:50</a></li></ul></aside></li></ul></section></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L54">lib/structures/Message.ts:54</a></li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Properties</h2>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="_lastMessageID" class="tsd-anchor"></a>
@@ -106,14 +117,14 @@
 <div class="tsd-comment tsd-typography"><p>ID of the last message created with the message itself.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L45">lib/structures/Message.ts:45</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L49">lib/structures/Message.ts:49</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="channelID" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>channelID</span><a href="#channelID" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">channelID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 <div class="tsd-comment tsd-typography"><p>ID of the channel on which the message was sent.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L21">lib/structures/Message.ts:21</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L24">lib/structures/Message.ts:24</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a id="client" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>client</span><a href="#client" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">client<span class="tsd-signature-symbol">:</span> <a href="Client.Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a></div>
@@ -121,144 +132,147 @@
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="Base.Base.html">Base</a>.<a href="Base.Base.html#client">client</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Base.ts#L8">lib/structures/Base.ts:8</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Base.ts#L10">lib/structures/Base.ts:10</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="content" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>content</span><a href="#content" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">content<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 <div class="tsd-comment tsd-typography"><p>Content of the message.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L23">lib/structures/Message.ts:23</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L26">lib/structures/Message.ts:26</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="createdAt" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>created<wbr/>At</span><a href="#createdAt" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">created<wbr/>At<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Date</span></div>
 <div class="tsd-comment tsd-typography"><p>When the message was created.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L38">lib/structures/Message.ts:38</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L42">lib/structures/Message.ts:42</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="deletedAt" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>deleted<wbr/>At</span><a href="#deletedAt" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">deleted<wbr/>At<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Date</span></div>
 <div class="tsd-comment tsd-typography"><p>When the message was deleted.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L42">lib/structures/Message.ts:42</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L46">lib/structures/Message.ts:46</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="editedTimestamp" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>edited<wbr/>Timestamp</span><a href="#editedTimestamp" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">edited<wbr/>Timestamp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Date</span></div>
 <div class="tsd-comment tsd-typography"><p>Timestamp at which this message was last edited.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L40">lib/structures/Message.ts:40</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L44">lib/structures/Message.ts:44</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="embeds" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>embeds</span><a href="#embeds" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">embeds<span class="tsd-signature-symbol">?:</span> <a href="../interfaces/Constants.APIEmbedOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">APIEmbedOptions</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-symbol">]</span></div>
 <div class="tsd-comment tsd-typography"><p>Array of message embed.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L25">lib/structures/Message.ts:25</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L28">lib/structures/Message.ts:28</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="guildID" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>guildID</span><a href="#guildID" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">guildID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 <div class="tsd-comment tsd-typography"><p>ID of the server on which the message was sent.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L19">lib/structures/Message.ts:19</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L22">lib/structures/Message.ts:22</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a id="id" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>id</span><a href="#id" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+<div class="tsd-signature">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 <div class="tsd-comment tsd-typography"><p>Item ID</p>
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="Base.Base.html">Base</a>.<a href="Base.Base.html#id">id</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Base.ts#L10">lib/structures/Base.ts:10</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Base.ts#L12">lib/structures/Base.ts:12</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="isPrivate" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>is<wbr/>Private</span><a href="#isPrivate" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature">is<wbr/>Private<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
+<div class="tsd-signature">is<wbr/>Private<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+<div class="tsd-comment tsd-typography"><p>If true, the message appears as private.</p>
+</div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L28">lib/structures/Message.ts:28</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L32">lib/structures/Message.ts:32</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="isSilent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>is<wbr/>Silent</span><a href="#isSilent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature">is<wbr/>Silent<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
+<div class="tsd-signature">is<wbr/>Silent<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+<div class="tsd-comment tsd-typography"><p>If true, the message didn&#39;t mention anyone.</p>
+</div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L29">lib/structures/Message.ts:29</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L34">lib/structures/Message.ts:34</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="memberID" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>memberID</span><a href="#memberID" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">memberID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 <div class="tsd-comment tsd-typography"><p>ID of the message author.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L33">lib/structures/Message.ts:33</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L38">lib/structures/Message.ts:38</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="mentions" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>mentions</span><a href="#mentions" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">mentions<span class="tsd-signature-symbol">:</span> <a href="../types/Constants.APIMentions.html" class="tsd-signature-type" data-tsd-kind="Type alias">APIMentions</a></div>
 <div class="tsd-comment tsd-typography"><p>object containing all mentioned users.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L31">lib/structures/Message.ts:31</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L36">lib/structures/Message.ts:36</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="replyMessageIds" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>reply<wbr/>Message<wbr/>Ids</span><a href="#replyMessageIds" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">reply<wbr/>Message<wbr/>Ids<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
 <div class="tsd-comment tsd-typography"><p>The IDs of the message replied by the message.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L27">lib/structures/Message.ts:27</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L30">lib/structures/Message.ts:30</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="type" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>type</span><a href="#type" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 <div class="tsd-comment tsd-typography"><p>Message type.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L17">lib/structures/Message.ts:17</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L20">lib/structures/Message.ts:20</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="webhookID" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>webhookID</span><a href="#webhookID" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">webhookID<span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 <div class="tsd-comment tsd-typography"><p>ID of the webhook used to send this message. (if sent by a webhook)</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L35">lib/structures/Message.ts:35</a></li></ul></aside></section></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L40">lib/structures/Message.ts:40</a></li></ul></aside></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Accessors</h2>
 <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class"><a id="channel" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>channel</span><a href="#channel" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-<li class="tsd-signature" id="channel.channel-1"><span class="tsd-signature-symbol">get</span> channel<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Channel.Channel.html" class="tsd-signature-type" data-tsd-kind="Class">Channel</a><span class="tsd-signature-symbol">&gt;</span></li>
+<li class="tsd-signature" id="channel.channel-1"><span class="tsd-signature-symbol">get</span> channel<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol"> extends </span><a href="TextChannel.TextChannel.html" class="tsd-signature-type" data-tsd-kind="Class">TextChannel</a><span class="tsd-signature-symbol"> ? </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> : </span><span class="tsd-signature-type">undefined</span></li>
 <li class="tsd-description">
-<div class="tsd-comment tsd-typography"><p>Getter used to get the message&#39;s channel</p>
-<p>Note: this returns a promise, make sure to await it before.</p>
+<div class="tsd-comment tsd-typography"><p>The channel this message was created in.</p>
 </div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Channel.Channel.html" class="tsd-signature-type" data-tsd-kind="Class">Channel</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol"> extends </span><a href="TextChannel.TextChannel.html" class="tsd-signature-type" data-tsd-kind="Class">TextChannel</a><span class="tsd-signature-symbol"> ? </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> : </span><span class="tsd-signature-type">undefined</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L103">lib/structures/Message.ts:103</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L180">lib/structures/Message.ts:180</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class"><a id="guild" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>guild</span><a href="#guild" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-<li class="tsd-signature" id="guild.guild-1"><span class="tsd-signature-symbol">get</span> guild<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol">&gt;</span></li>
+<li class="tsd-signature" id="guild.guild-1"><span class="tsd-signature-symbol">get</span> guild<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol"> extends </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol"> ? </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol"> : </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a></li>
 <li class="tsd-description">
-<div class="tsd-comment tsd-typography"><p>Getter used to get the message&#39;s guild</p>
-<p>Note: this can return a promise, make sure to await it before.</p>
+<div class="tsd-comment tsd-typography"><p>The guild the message is in. This will throw an error if the guild isn&#39;t cached.</p>
 </div>
-<h4 class="tsd-returns-title">Returns <a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol"> extends </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol"> ? </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol"> : </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L94">lib/structures/Message.ts:94</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L168">lib/structures/Message.ts:168</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class"><a id="member" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>member</span><a href="#member" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-<li class="tsd-signature" id="member.member-1"><span class="tsd-signature-symbol">get</span> member<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="User.User.html" class="tsd-signature-type" data-tsd-kind="Class">User</a><span class="tsd-signature-symbol"> | </span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol">&gt;</span></li>
+<li class="tsd-signature" id="member.member-1"><span class="tsd-signature-symbol">get</span> member<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol"> extends </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol"> ? </span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol"> : </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol">&gt;</span></li>
 <li class="tsd-description">
-<div class="tsd-comment tsd-typography"><p>Retrieve message&#39;s member, if cached.
-If there is no cached member or user, this will make a request which returns a Promise.
-If the request fails, this will throw an error or return you undefined as a value.</p>
+<div class="tsd-comment tsd-typography"><p>Retrieve message&#39;s member.</p>
+<p>Make sure to await this property (getter) to still get results even if the member is not cached.</p>
+
+<h3>Note</h3><p>The API does not provide member information, that&#39;s why you might need to await this property.</p>
 </div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="User.User.html" class="tsd-signature-type" data-tsd-kind="Class">User</a><span class="tsd-signature-symbol"> | </span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol"> extends </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol"> ? </span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol"> : </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L77">lib/structures/Message.ts:77</a></li></ul></aside></li></ul></section></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L147">lib/structures/Message.ts:147</a></li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Methods</h2>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="createMessage" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>create<wbr/>Message</span><a href="#createMessage" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-<li class="tsd-signature tsd-anchor-link" id="createMessage.createMessage-1">create<wbr/>Message<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">: </span><a href="../types/Constants.APIMessageOptions.html" class="tsd-signature-type" data-tsd-kind="Type alias">APIMessageOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&gt;</span><a href="#createMessage.createMessage-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="createMessage.createMessage-1">create<wbr/>Message<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">: </span><a href="../types/Constants.APIMessageOptions.html" class="tsd-signature-type" data-tsd-kind="Type alias">APIMessageOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><a href="#createMessage.createMessage-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>This method is used to create a message following this message.</p>
 <p>Note: this method DOES NOT reply to the current message, you have to do it yourself.</p>
@@ -270,9 +284,9 @@ If the request fails, this will throw an error or return you undefined as a valu
 <h5>options: <a href="../types/Constants.APIMessageOptions.html" class="tsd-signature-type" data-tsd-kind="Type alias">APIMessageOptions</a></h5>
 <div class="tsd-comment tsd-typography"><p>Message options.</p>
 </div></li></ul></div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L122">lib/structures/Message.ts:122</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L202">lib/structures/Message.ts:202</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="createReaction" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>create<wbr/>Reaction</span><a href="#createReaction" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -289,7 +303,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L176">lib/structures/Message.ts:176</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L256">lib/structures/Message.ts:256</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="delete" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>delete</span><a href="#delete" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -299,7 +313,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L140">lib/structures/Message.ts:140</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L220">lib/structures/Message.ts:220</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="deleteLastMessage" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>delete<wbr/>Last<wbr/>Message</span><a href="#deleteLastMessage" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -309,7 +323,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L154">lib/structures/Message.ts:154</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L234">lib/structures/Message.ts:234</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="deleteOriginalMessage" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>delete<wbr/>Original<wbr/>Message</span><a href="#deleteOriginalMessage" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -319,7 +333,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L168">lib/structures/Message.ts:168</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L248">lib/structures/Message.ts:248</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="deleteReaction" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>delete<wbr/>Reaction</span><a href="#deleteReaction" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -336,11 +350,11 @@ If the request fails, this will throw an error or return you undefined as a valu
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L183">lib/structures/Message.ts:183</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L263">lib/structures/Message.ts:263</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="edit" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>edit</span><a href="#edit" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-<li class="tsd-signature tsd-anchor-link" id="edit.edit-1">edit<span class="tsd-signature-symbol">(</span>newMessage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span><br/><span>    </span>content<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span>    </span>embeds<span class="tsd-signature-symbol">?: </span><a href="../interfaces/Constants.APIEmbedOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">APIEmbedOptions</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&gt;</span><a href="#edit.edit-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="edit.edit-1">edit<span class="tsd-signature-symbol">(</span>newMessage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span><br/><span>    </span>content<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span>    </span>embeds<span class="tsd-signature-symbol">?: </span><a href="../interfaces/Constants.APIEmbedOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">APIEmbedOptions</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><a href="#edit.edit-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>This method is used to edit the current message.</p>
 </div>
@@ -356,13 +370,13 @@ If the request fails, this will throw an error or return you undefined as a valu
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> content<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span></h5></li>
 <li class="tsd-parameter">
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> embeds<span class="tsd-signature-symbol">?: </span><a href="../interfaces/Constants.APIEmbedOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">APIEmbedOptions</a><span class="tsd-signature-symbol">[]</span></h5></li></ul></li></ul></div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L135">lib/structures/Message.ts:135</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L215">lib/structures/Message.ts:215</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="editLastMessage" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>edit<wbr/>Last<wbr/>Message</span><a href="#editLastMessage" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-<li class="tsd-signature tsd-anchor-link" id="editLastMessage.editLastMessage-1">edit<wbr/>Last<wbr/>Message<span class="tsd-signature-symbol">(</span>newMessage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span><br/><span>    </span>content<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span>    </span>embeds<span class="tsd-signature-symbol">?: </span><a href="../interfaces/Constants.APIEmbedOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">APIEmbedOptions</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&gt;</span><a href="#editLastMessage.editLastMessage-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="editLastMessage.editLastMessage-1">edit<wbr/>Last<wbr/>Message<span class="tsd-signature-symbol">(</span>newMessage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span><br/><span>    </span>content<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span>    </span>embeds<span class="tsd-signature-symbol">?: </span><a href="../interfaces/Constants.APIEmbedOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">APIEmbedOptions</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><a href="#editLastMessage.editLastMessage-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Edit the last message sent with the message itself.</p>
 </div>
@@ -378,13 +392,13 @@ If the request fails, this will throw an error or return you undefined as a valu
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> content<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span></h5></li>
 <li class="tsd-parameter">
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> embeds<span class="tsd-signature-symbol">?: </span><a href="../interfaces/Constants.APIEmbedOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">APIEmbedOptions</a><span class="tsd-signature-symbol">[]</span></h5></li></ul></li></ul></div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L148">lib/structures/Message.ts:148</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L228">lib/structures/Message.ts:228</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="editOriginalMessage" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>edit<wbr/>Original<wbr/>Message</span><a href="#editOriginalMessage" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-<li class="tsd-signature tsd-anchor-link" id="editOriginalMessage.editOriginalMessage-1">edit<wbr/>Original<wbr/>Message<span class="tsd-signature-symbol">(</span>newMessage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span><br/><span>    </span>content<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span>    </span>embeds<span class="tsd-signature-symbol">?: </span><a href="../interfaces/Constants.APIEmbedOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">APIEmbedOptions</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&gt;</span><a href="#editOriginalMessage.editOriginalMessage-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="editOriginalMessage.editOriginalMessage-1">edit<wbr/>Original<wbr/>Message<span class="tsd-signature-symbol">(</span>newMessage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span><br/><span>    </span>content<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span>    </span>embeds<span class="tsd-signature-symbol">?: </span><a href="../interfaces/Constants.APIEmbedOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">APIEmbedOptions</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><a href="#editOriginalMessage.editOriginalMessage-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Edit the message&#39;s original response message.</p>
 </div>
@@ -400,9 +414,18 @@ If the request fails, this will throw an error or return you undefined as a valu
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> content<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span></h5></li>
 <li class="tsd-parameter">
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> embeds<span class="tsd-signature-symbol">?: </span><a href="../interfaces/Constants.APIEmbedOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">APIEmbedOptions</a><span class="tsd-signature-symbol">[]</span></h5></li></ul></li></ul></div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Message.Message.html" class="tsd-signature-type" data-tsd-kind="Class">Message</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Message.ts#L162">lib/structures/Message.ts:162</a></li></ul></aside></li></ul></section></section></div>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L242">lib/structures/Message.ts:242</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="toJSON" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>toJSON</span><a href="#toJSON" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+<li class="tsd-signature tsd-anchor-link" id="toJSON.toJSON-1">toJSON<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/types_json.JSONMessage.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONMessage</a><a href="#toJSON.toJSON-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-description">
+<h4 class="tsd-returns-title">Returns <a href="../interfaces/types_json.JSONMessage.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONMessage</a></h4><aside class="tsd-sources">
+<p>Overrides <a href="Base.Base.html">Base</a>.<a href="Base.Base.html#toJSON">toJSON</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Message.ts#L77">lib/structures/Message.ts:77</a></li></ul></aside></li></ul></section></section></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <div class="tsd-navigation settings">
 <details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
@@ -425,6 +448,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 <li class="tsd-kind-module"><a href="../modules/BannedMember.html">Banned<wbr/>Member</a></li>
 <li class="tsd-kind-module"><a href="../modules/Base.html">Base</a></li>
 <li class="tsd-kind-module"><a href="../modules/Bucket.html">Bucket</a></li>
+<li class="tsd-kind-module"><a href="../modules/CalendarChannel.html">Calendar<wbr/>Channel</a></li>
 <li class="tsd-kind-module"><a href="../modules/CalendarEvent.html">Calendar<wbr/>Event</a></li>
 <li class="tsd-kind-module"><a href="../modules/CalendarHandler.html">Calendar<wbr/>Handler</a></li>
 <li class="tsd-kind-module"><a href="../modules/CalendarRSVP.html">CalendarRSVP</a></li>
@@ -434,8 +458,10 @@ If the request fails, this will throw an error or return you undefined as a valu
 <li class="tsd-kind-module"><a href="../modules/Collection.html">Collection</a></li>
 <li class="tsd-kind-module"><a href="../modules/Constants.html">Constants</a></li>
 <li class="tsd-kind-module"><a href="../modules/Doc.html">Doc</a></li>
+<li class="tsd-kind-module"><a href="../modules/DocChannel.html">Doc<wbr/>Channel</a></li>
 <li class="tsd-kind-module"><a href="../modules/DocHandler.html">Doc<wbr/>Handler</a></li>
 <li class="tsd-kind-module"><a href="../modules/Events.html">Events</a></li>
+<li class="tsd-kind-module"><a href="../modules/ForumChannel.html">Forum<wbr/>Channel</a></li>
 <li class="tsd-kind-module"><a href="../modules/ForumThread.html">Forum<wbr/>Thread</a></li>
 <li class="tsd-kind-module"><a href="../modules/ForumThreadComment.html">Forum<wbr/>Thread<wbr/>Comment</a></li>
 <li class="tsd-kind-module"><a href="../modules/ForumThreadHandler.html">Forum<wbr/>Thread<wbr/>Handler</a></li>
@@ -444,6 +470,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 <li class="tsd-kind-module"><a href="../modules/GatewayEventHandler.html">Gateway<wbr/>Event<wbr/>Handler</a></li>
 <li class="tsd-kind-module"><a href="../modules/GatewayHandler.html">Gateway<wbr/>Handler</a></li>
 <li class="tsd-kind-module"><a href="../modules/Guild.html">Guild</a></li>
+<li class="tsd-kind-module"><a href="../modules/GuildChannel.html">Guild<wbr/>Channel</a></li>
 <li class="tsd-kind-module"><a href="../modules/GuildHandler.html">Guild<wbr/>Handler</a></li>
 <li class="tsd-kind-module"><a href="../modules/GuildedHTTPError.html">GuildedHTTPError</a></li>
 <li class="tsd-kind-module"><a href="../modules/GuildedRESTError.html">GuildedRESTError</a></li>
@@ -463,6 +490,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 <li class="tsd-kind-module"><a href="../modules/Routes_Guilds.html">Routes/<wbr/>Guilds</a></li>
 <li class="tsd-kind-module"><a href="../modules/Routes_Guilds-1.html">Routes/<wbr/>Guilds</a></li>
 <li class="tsd-kind-module"><a href="../modules/SequentialBucket.html">Sequential<wbr/>Bucket</a></li>
+<li class="tsd-kind-module"><a href="../modules/TextChannel.html">Text<wbr/>Channel</a></li>
 <li class="tsd-kind-module"><a href="../modules/TypedCollection.html">Typed<wbr/>Collection</a></li>
 <li class="tsd-kind-module"><a href="../modules/TypedEmitter.html">Typed<wbr/>Emitter</a></li>
 <li class="tsd-kind-module"><a href="../modules/Types.html">Types</a></li>
@@ -485,6 +513,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 <li class="tsd-kind-module"><a href="../modules/types_forumThreadComment.html">types/forum<wbr/>Thread<wbr/>Comment</a></li>
 <li class="tsd-kind-module"><a href="../modules/types_gateway_raw.html">types/gateway-<wbr/>raw</a></li>
 <li class="tsd-kind-module"><a href="../modules/types_guilds.html">types/guilds</a></li>
+<li class="tsd-kind-module"><a href="../modules/types_json.html">types/json</a></li>
 <li class="tsd-kind-module"><a href="../modules/types_listItem.html">types/list<wbr/>Item</a></li>
 <li class="tsd-kind-module"><a href="../modules/types_webhook.html">types/webhook</a></li>
 <li class="tsd-kind-module"><a href="../modules/types_webhooks.html">types/webhooks</a></li></ul></li></ul></div></details></nav>
@@ -521,5 +550,6 @@ If the request fails, this will throw an error or return you undefined as a valu
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="Message.Message.html#deleteReaction" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>delete<wbr/>Reaction</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="Message.Message.html#edit" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>edit</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="Message.Message.html#editLastMessage" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>edit<wbr/>Last<wbr/>Message</a></li>
-<li class="tsd-kind-method tsd-parent-kind-class"><a href="Message.Message.html#editOriginalMessage" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>edit<wbr/>Original<wbr/>Message</a></li></ul></li></ul></nav></div></div>
+<li class="tsd-kind-method tsd-parent-kind-class"><a href="Message.Message.html#editOriginalMessage" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>edit<wbr/>Original<wbr/>Message</a></li>
+<li class="tsd-kind-method tsd-parent-kind-class"><a href="Message.Message.html#toJSON" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>toJSON</a></li></ul></li></ul></nav></div></div>
 <div class="overlay"></div><script src="../assets/main.js"></script></body></html>

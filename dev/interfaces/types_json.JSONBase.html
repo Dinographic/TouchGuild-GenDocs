@@ -1,4 +1,4 @@
-<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><script>localStorage.setItem('tsd-theme', localStorage.getItem('tsd-theme') || 'dark')</script><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>forumThreadReactionInfo | TouchGuild</title><meta name="description" content="Documentation for TouchGuild"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script async src="../assets/search.js" id="search-script"></script>	<link rel="icon" href="../favicon.ico" />
+<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><script>localStorage.setItem('tsd-theme', localStorage.getItem('tsd-theme') || 'dark')</script><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>JSONBase | TouchGuild</title><meta name="description" content="Documentation for TouchGuild"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script async src="../assets/search.js" id="search-script"></script>	<link rel="icon" href="../favicon.ico" />
 </head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
 <div class="tsd-toolbar-contents container">
 <div class="table-cell" id="tsd-search" data-base="..">
@@ -14,15 +14,35 @@
 <div class="tsd-page-title">
 <ul class="tsd-breadcrumb">
 <li><a href="../modules.html">TouchGuild</a></li>
-<li><a href="../modules/Types.html">Types</a></li>
-<li><a href="Types.forumThreadReactionInfo.html">forumThreadReactionInfo</a></li></ul>
-<h1>Interface forumThreadReactionInfo</h1></div>
+<li><a href="../modules/types_json.html">types/json</a></li>
+<li><a href="types_json.JSONBase.html">JSONBase</a></li></ul>
+<h1>Interface JSONBase&lt;ID&gt;</h1></div> 
+<section class="tsd-panel tsd-type-parameters">
+<h4>Type Parameters</h4>
+<ul class="tsd-type-parameters">
+<li>
+<h4>ID = <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h4></li></ul></section> 
 <section class="tsd-panel tsd-hierarchy">
 <h4>Hierarchy</h4>
 <ul class="tsd-hierarchy">
-<li><span class="target">forumThreadReactionInfo</span></li></ul></section><aside class="tsd-sources">
+<li><span class="target">JSONBase</span>
+<ul class="tsd-hierarchy">
+<li><a href="types_json.JSONMessage.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONMessage</a></li>
+<li><a href="types_json.JSONForumThreadComment.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONForumThreadComment</a></li>
+<li><a href="types_json.JSONDoc.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONDoc</a></li>
+<li><a href="types_json.JSONChannel.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONChannel</a></li>
+<li><a href="types_json.JSONGuildChannel.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONGuildChannel</a></li>
+<li><a href="types_json.JSONCalendarEvent.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONCalendarEvent</a></li>
+<li><a href="types_json.JSONCalendarEventRSVP.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONCalendarEventRSVP</a></li>
+<li><a href="types_json.JSONBannedMember.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONBannedMember</a></li>
+<li><a href="types_json.JSONForumThread.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONForumThread</a></li>
+<li><a href="types_json.JSONUser.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONUser</a></li>
+<li><a href="types_json.JSONGuild.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONGuild</a></li>
+<li><a href="types_json.JSONUserClient.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONUserClient</a></li>
+<li><a href="types_json.JSONWebhook.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONWebhook</a></li>
+<li><a href="types_json.JSONListItem.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONListItem</a></li></ul></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/types/types.d.ts#L24">lib/types/types.d.ts:24</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/types/json.d.ts#L7">lib/types/json.d.ts:7</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -30,27 +50,15 @@
 <div class="tsd-accordion-details">
 <section class="tsd-index-section">
 <h3 class="tsd-index-heading">Properties</h3>
-<div class="tsd-index-list"><a href="Types.forumThreadReactionInfo.html#emoji" class="tsd-index-link tsd-kind-property tsd-parent-kind-interface"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="#FF984D" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12" id="icon-1024-path"></rect><path d="M9.354 16V7.24H12.174C12.99 7.24 13.638 7.476 14.118 7.948C14.606 8.412 14.85 9.036 14.85 9.82C14.85 10.604 14.606 11.232 14.118 11.704C13.638 12.168 12.99 12.4 12.174 12.4H10.434V16H9.354ZM10.434 11.428H12.174C12.646 11.428 13.022 11.284 13.302 10.996C13.59 10.7 13.734 10.308 13.734 9.82C13.734 9.324 13.59 8.932 13.302 8.644C13.022 8.356 12.646 8.212 12.174 8.212H10.434V11.428Z" fill="var(--color-text)" id="icon-1024-text"></path></svg><span>emoji</span></a>
-<a href="Types.forumThreadReactionInfo.html#reactor" class="tsd-index-link tsd-kind-property tsd-parent-kind-interface"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>reactor</span></a>
-<a href="Types.forumThreadReactionInfo.html#thread" class="tsd-index-link tsd-kind-property tsd-parent-kind-interface"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>thread</span></a>
+<div class="tsd-index-list"><a href="types_json.JSONBase.html#id" class="tsd-index-link tsd-kind-property tsd-parent-kind-interface"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="#FF984D" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12" id="icon-1024-path"></rect><path d="M9.354 16V7.24H12.174C12.99 7.24 13.638 7.476 14.118 7.948C14.606 8.412 14.85 9.036 14.85 9.82C14.85 10.604 14.606 11.232 14.118 11.704C13.638 12.168 12.99 12.4 12.174 12.4H10.434V16H9.354ZM10.434 11.428H12.174C12.646 11.428 13.022 11.284 13.302 10.996C13.59 10.7 13.734 10.308 13.734 9.82C13.734 9.324 13.59 8.932 13.302 8.644C13.022 8.356 12.646 8.212 12.174 8.212H10.434V11.428Z" fill="var(--color-text)" id="icon-1024-text"></path></svg><span>id</span></a>
 </div></section></div></details></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Properties</h2>
-<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface"><a id="emoji" class="tsd-anchor"></a>
-<h3 class="tsd-anchor-link"><span>emoji</span><a href="#emoji" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" id="icon-anchor-a"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" id="icon-anchor-b"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" id="icon-anchor-c"></path></svg></a></h3>
-<div class="tsd-signature">emoji<span class="tsd-signature-symbol">:</span> <a href="Constants.APIEmote.html" class="tsd-signature-type" data-tsd-kind="Interface">APIEmote</a></div><aside class="tsd-sources">
+<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface"><a id="id" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>id</span><a href="#id" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" id="icon-anchor-a"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" id="icon-anchor-b"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" id="icon-anchor-c"></path></svg></a></h3>
+<div class="tsd-signature">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type" data-tsd-kind="Type parameter">ID</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/types/types.d.ts#L32">lib/types/types.d.ts:32</a></li></ul></aside></section>
-<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface"><a id="reactor" class="tsd-anchor"></a>
-<h3 class="tsd-anchor-link"><span>reactor</span><a href="#reactor" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature">reactor<span class="tsd-signature-symbol">:</span> <a href="../classes/Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{ </span><br/><span>    </span>id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span></div><aside class="tsd-sources">
-<ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/types/types.d.ts#L33">lib/types/types.d.ts:33</a></li></ul></aside></section>
-<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface"><a id="thread" class="tsd-anchor"></a>
-<h3 class="tsd-anchor-link"><span>thread</span><a href="#thread" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature">thread<span class="tsd-signature-symbol">:</span> <a href="../classes/ForumThread.ForumThread.html" class="tsd-signature-type" data-tsd-kind="Class">ForumThread</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{ </span><br/><span>    </span>channelID<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span>    </span>guild<span class="tsd-signature-symbol">: </span><a href="../classes/Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{ </span><br/><span>        </span>id<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-signature-symbol">}</span><span class="tsd-signature-symbol">; </span><br/><span>    </span>id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span></div><aside class="tsd-sources">
-<ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/types/types.d.ts#L25">lib/types/types.d.ts:25</a></li></ul></aside></section></section></div>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/types/json.d.ts#L9">lib/types/json.d.ts:9</a></li></ul></aside></section></section></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <div class="tsd-navigation settings">
 <details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
@@ -73,6 +81,7 @@
 <li class="tsd-kind-module"><a href="../modules/BannedMember.html">Banned<wbr/>Member</a></li>
 <li class="tsd-kind-module"><a href="../modules/Base.html">Base</a></li>
 <li class="tsd-kind-module"><a href="../modules/Bucket.html">Bucket</a></li>
+<li class="tsd-kind-module"><a href="../modules/CalendarChannel.html">Calendar<wbr/>Channel</a></li>
 <li class="tsd-kind-module"><a href="../modules/CalendarEvent.html">Calendar<wbr/>Event</a></li>
 <li class="tsd-kind-module"><a href="../modules/CalendarHandler.html">Calendar<wbr/>Handler</a></li>
 <li class="tsd-kind-module"><a href="../modules/CalendarRSVP.html">CalendarRSVP</a></li>
@@ -82,8 +91,10 @@
 <li class="tsd-kind-module"><a href="../modules/Collection.html">Collection</a></li>
 <li class="tsd-kind-module"><a href="../modules/Constants.html">Constants</a></li>
 <li class="tsd-kind-module"><a href="../modules/Doc.html">Doc</a></li>
+<li class="tsd-kind-module"><a href="../modules/DocChannel.html">Doc<wbr/>Channel</a></li>
 <li class="tsd-kind-module"><a href="../modules/DocHandler.html">Doc<wbr/>Handler</a></li>
 <li class="tsd-kind-module"><a href="../modules/Events.html">Events</a></li>
+<li class="tsd-kind-module"><a href="../modules/ForumChannel.html">Forum<wbr/>Channel</a></li>
 <li class="tsd-kind-module"><a href="../modules/ForumThread.html">Forum<wbr/>Thread</a></li>
 <li class="tsd-kind-module"><a href="../modules/ForumThreadComment.html">Forum<wbr/>Thread<wbr/>Comment</a></li>
 <li class="tsd-kind-module"><a href="../modules/ForumThreadHandler.html">Forum<wbr/>Thread<wbr/>Handler</a></li>
@@ -92,6 +103,7 @@
 <li class="tsd-kind-module"><a href="../modules/GatewayEventHandler.html">Gateway<wbr/>Event<wbr/>Handler</a></li>
 <li class="tsd-kind-module"><a href="../modules/GatewayHandler.html">Gateway<wbr/>Handler</a></li>
 <li class="tsd-kind-module"><a href="../modules/Guild.html">Guild</a></li>
+<li class="tsd-kind-module"><a href="../modules/GuildChannel.html">Guild<wbr/>Channel</a></li>
 <li class="tsd-kind-module"><a href="../modules/GuildHandler.html">Guild<wbr/>Handler</a></li>
 <li class="tsd-kind-module"><a href="../modules/GuildedHTTPError.html">GuildedHTTPError</a></li>
 <li class="tsd-kind-module"><a href="../modules/GuildedRESTError.html">GuildedRESTError</a></li>
@@ -111,9 +123,10 @@
 <li class="tsd-kind-module"><a href="../modules/Routes_Guilds.html">Routes/<wbr/>Guilds</a></li>
 <li class="tsd-kind-module"><a href="../modules/Routes_Guilds-1.html">Routes/<wbr/>Guilds</a></li>
 <li class="tsd-kind-module"><a href="../modules/SequentialBucket.html">Sequential<wbr/>Bucket</a></li>
+<li class="tsd-kind-module"><a href="../modules/TextChannel.html">Text<wbr/>Channel</a></li>
 <li class="tsd-kind-module"><a href="../modules/TypedCollection.html">Typed<wbr/>Collection</a></li>
 <li class="tsd-kind-module"><a href="../modules/TypedEmitter.html">Typed<wbr/>Emitter</a></li>
-<li class="current tsd-kind-module"><a href="../modules/Types.html">Types</a></li>
+<li class="tsd-kind-module"><a href="../modules/Types.html">Types</a></li>
 <li class="tsd-kind-module"><a href="../modules/Types_RequestHandler.html">Types/<wbr/>Request<wbr/>Handler</a></li>
 <li class="tsd-kind-module"><a href="../modules/User.html">User</a></li>
 <li class="tsd-kind-module"><a href="../modules/UserClient.html">User<wbr/>Client</a></li>
@@ -133,14 +146,13 @@
 <li class="tsd-kind-module"><a href="../modules/types_forumThreadComment.html">types/forum<wbr/>Thread<wbr/>Comment</a></li>
 <li class="tsd-kind-module"><a href="../modules/types_gateway_raw.html">types/gateway-<wbr/>raw</a></li>
 <li class="tsd-kind-module"><a href="../modules/types_guilds.html">types/guilds</a></li>
+<li class="current tsd-kind-module"><a href="../modules/types_json.html">types/json</a></li>
 <li class="tsd-kind-module"><a href="../modules/types_listItem.html">types/list<wbr/>Item</a></li>
 <li class="tsd-kind-module"><a href="../modules/types_webhook.html">types/webhook</a></li>
 <li class="tsd-kind-module"><a href="../modules/types_webhooks.html">types/webhooks</a></li></ul></li></ul></div></details></nav>
 <nav class="tsd-navigation secondary menu-sticky">
 <ul>
-<li class="current tsd-kind-interface tsd-parent-kind-module"><a href="Types.forumThreadReactionInfo.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-interface)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6" id="icon-256-path"></rect><path d="M9.51 16V15.016H11.298V8.224H9.51V7.24H14.19V8.224H12.402V15.016H14.19V16H9.51Z" fill="var(--color-text)" id="icon-256-text"></path></svg><span>forum<wbr/>Thread<wbr/>Reaction<wbr/>Info</span></a>
+<li class="current tsd-kind-interface tsd-parent-kind-module"><a href="types_json.JSONBase.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-interface)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6" id="icon-256-path"></rect><path d="M9.51 16V15.016H11.298V8.224H9.51V7.24H14.19V8.224H12.402V15.016H14.19V16H9.51Z" fill="var(--color-text)" id="icon-256-text"></path></svg><span>JSONBase</span></a>
 <ul>
-<li class="tsd-kind-property tsd-parent-kind-interface"><a href="Types.forumThreadReactionInfo.html#emoji" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>emoji</a></li>
-<li class="tsd-kind-property tsd-parent-kind-interface"><a href="Types.forumThreadReactionInfo.html#reactor" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>reactor</a></li>
-<li class="tsd-kind-property tsd-parent-kind-interface"><a href="Types.forumThreadReactionInfo.html#thread" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>thread</a></li></ul></li></ul></nav></div></div>
+<li class="tsd-kind-property tsd-parent-kind-interface"><a href="types_json.JSONBase.html#id" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>id</a></li></ul></li></ul></nav></div></div>
 <div class="overlay"></div><script src="../assets/main.js"></script></body></html>

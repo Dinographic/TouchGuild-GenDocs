@@ -16,18 +16,23 @@
 <li><a href="../modules.html">TouchGuild</a></li>
 <li><a href="../modules/ForumThread.html">ForumThread</a></li>
 <li><a href="ForumThread.ForumThread.html">ForumThread</a></li></ul>
-<h1>Class ForumThread</h1></div>
+<h1>Class ForumThread&lt;T&gt;</h1></div>
 <section class="tsd-panel tsd-comment">
 <div class="tsd-comment tsd-typography"><p>Represents a thread/topic coming from a &quot;Forums&quot; channel.</p>
-</div></section>
+</div></section> 
+<section class="tsd-panel tsd-type-parameters">
+<h4>Type Parameters</h4>
+<ul class="tsd-type-parameters">
+<li>
+<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/types_channel.AnyChannel.html" class="tsd-signature-type" data-tsd-kind="Type alias">AnyChannel</a></h4></li></ul></section> 
 <section class="tsd-panel tsd-hierarchy">
 <h4>Hierarchy</h4>
 <ul class="tsd-hierarchy">
-<li><a href="Base.Base.html" class="tsd-signature-type" data-tsd-kind="Class">Base</a>
+<li><a href="Base.Base.html" class="tsd-signature-type" data-tsd-kind="Class">Base</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span>
 <ul class="tsd-hierarchy">
 <li><span class="target">ForumThread</span></li></ul></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L14">lib/structures/ForumThread.ts:14</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L16">lib/structures/ForumThread.ts:16</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -42,13 +47,17 @@
 <div class="tsd-index-list"><a href="ForumThread.ForumThread.html#bumpedAt" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="#FF984D" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12" id="icon-1024-path"></rect><path d="M9.354 16V7.24H12.174C12.99 7.24 13.638 7.476 14.118 7.948C14.606 8.412 14.85 9.036 14.85 9.82C14.85 10.604 14.606 11.232 14.118 11.704C13.638 12.168 12.99 12.4 12.174 12.4H10.434V16H9.354ZM10.434 11.428H12.174C12.646 11.428 13.022 11.284 13.302 10.996C13.59 10.7 13.734 10.308 13.734 9.82C13.734 9.324 13.59 8.932 13.302 8.644C13.022 8.356 12.646 8.212 12.174 8.212H10.434V11.428Z" fill="var(--color-text)" id="icon-1024-text"></path></svg><span>bumped<wbr/>At</span></a>
 <a href="ForumThread.ForumThread.html#channelID" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>channelID</span></a>
 <a href="ForumThread.ForumThread.html#client" class="tsd-index-link tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>client</span></a>
+<a href="ForumThread.ForumThread.html#comments" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>comments</span></a>
 <a href="ForumThread.ForumThread.html#content" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>content</span></a>
 <a href="ForumThread.ForumThread.html#createdAt" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>created<wbr/>At</span></a>
 <a href="ForumThread.ForumThread.html#editedTimestamp" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>edited<wbr/>Timestamp</span></a>
 <a href="ForumThread.ForumThread.html#guildID" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>guildID</span></a>
 <a href="ForumThread.ForumThread.html#id" class="tsd-index-link tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>id</span></a>
+<a href="ForumThread.ForumThread.html#isLocked" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>is<wbr/>Locked</span></a>
+<a href="ForumThread.ForumThread.html#isPinned" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>is<wbr/>Pinned</span></a>
 <a href="ForumThread.ForumThread.html#mentions" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>mentions</span></a>
 <a href="ForumThread.ForumThread.html#name" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>name</span></a>
+<a href="ForumThread.ForumThread.html#owner" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>owner</span></a>
 <a href="ForumThread.ForumThread.html#ownerID" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>ownerID</span></a>
 <a href="ForumThread.ForumThread.html#webhookID" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>webhookID</span></a>
 </div></section>
@@ -57,7 +66,6 @@
 <div class="tsd-index-list"><a href="ForumThread.ForumThread.html#channel" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="#FF4D4D" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12" id="icon-262144-path"></rect><path d="M8.85 16L11.13 7.24H12.582L14.85 16H13.758L13.182 13.672H10.53L9.954 16H8.85ZM10.746 12.76H12.954L12.282 10.06C12.154 9.548 12.054 9.12 11.982 8.776C11.91 8.432 11.866 8.208 11.85 8.104C11.834 8.208 11.79 8.432 11.718 8.776C11.646 9.12 11.546 9.544 11.418 10.048L10.746 12.76Z" fill="var(--color-text)" id="icon-262144-text"></path></svg><span>channel</span></a>
 <a href="ForumThread.ForumThread.html#createdByWebhook" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg><span>created<wbr/>By<wbr/>Webhook</span></a>
 <a href="ForumThread.ForumThread.html#guild" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg><span>guild</span></a>
-<a href="ForumThread.ForumThread.html#owner" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg><span>owner</span></a>
 </div></section>
 <section class="tsd-index-section">
 <h3 class="tsd-index-heading">Methods</h3>
@@ -68,6 +76,7 @@
 <a href="ForumThread.ForumThread.html#edit" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>edit</span></a>
 <a href="ForumThread.ForumThread.html#lock" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>lock</span></a>
 <a href="ForumThread.ForumThread.html#pin" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>pin</span></a>
+<a href="ForumThread.ForumThread.html#toJSON" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>toJSON</span></a>
 <a href="ForumThread.ForumThread.html#unlock" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>unlock</span></a>
 <a href="ForumThread.ForumThread.html#unpin" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>unpin</span></a>
 </div></section></div></details></section></section>
@@ -76,8 +85,13 @@
 <section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class"><a id="constructor" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>constructor</span><a href="#constructor" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" id="icon-anchor-a"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" id="icon-anchor-b"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" id="icon-anchor-c"></path></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
-<li class="tsd-signature tsd-anchor-link" id="constructor.new_ForumThread">new <wbr/>Forum<wbr/>Thread<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><a href="../interfaces/Constants.APIForumTopic.html" class="tsd-signature-type" data-tsd-kind="Interface">APIForumTopic</a>, client<span class="tsd-signature-symbol">: </span><a href="Client.Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ForumThread.ForumThread.html" class="tsd-signature-type" data-tsd-kind="Class">ForumThread</a><a href="#constructor.new_ForumThread" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="constructor.new_ForumThread">new <wbr/>Forum<wbr/>Thread<span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><a href="../interfaces/Constants.APIForumTopic.html" class="tsd-signature-type" data-tsd-kind="Interface">APIForumTopic</a>, client<span class="tsd-signature-symbol">: </span><a href="Client.Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ForumThread.ForumThread.html" class="tsd-signature-type" data-tsd-kind="Class">ForumThread</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span><a href="#constructor.new_ForumThread" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
+<section class="tsd-panel tsd-type-parameters">
+<h4>Type Parameters</h4>
+<ul class="tsd-type-parameters">
+<li>
+<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/types_channel.AnyChannel.html" class="tsd-signature-type" data-tsd-kind="Type alias">AnyChannel</a></h4></li></ul></section>
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
@@ -89,26 +103,26 @@
 <h5>client: <a href="Client.Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a></h5>
 <div class="tsd-comment tsd-typography"><p>client</p>
 </div></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="ForumThread.ForumThread.html" class="tsd-signature-type" data-tsd-kind="Class">ForumThread</a></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <a href="ForumThread.ForumThread.html" class="tsd-signature-type" data-tsd-kind="Class">ForumThread</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <p>Overrides <a href="Base.Base.html">Base</a>.<a href="Base.Base.html#constructor">constructor</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L40">lib/structures/ForumThread.ts:40</a></li></ul></aside></li></ul></section></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L52">lib/structures/ForumThread.ts:52</a></li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Properties</h2>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="bumpedAt" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>bumped<wbr/>At</span><a href="#bumpedAt" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature">bumped<wbr/>At<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+<div class="tsd-signature">bumped<wbr/>At<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Date</span></div>
 <div class="tsd-comment tsd-typography"><p>Timestamp (unix epoch time) that the forum thread was bumped at.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L30">lib/structures/ForumThread.ts:30</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L36">lib/structures/ForumThread.ts:36</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="channelID" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>channelID</span><a href="#channelID" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">channelID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 <div class="tsd-comment tsd-typography"><p>Forum channel id</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L18">lib/structures/ForumThread.ts:18</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L22">lib/structures/ForumThread.ts:22</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a id="client" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>client</span><a href="#client" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">client<span class="tsd-signature-symbol">:</span> <a href="Client.Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a></div>
@@ -116,84 +130,111 @@
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="Base.Base.html">Base</a>.<a href="Base.Base.html#client">client</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Base.ts#L8">lib/structures/Base.ts:8</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Base.ts#L10">lib/structures/Base.ts:10</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="comments" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>comments</span><a href="#comments" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<div class="tsd-signature">comments<span class="tsd-signature-symbol">:</span> <a href="TypedCollection.TypedCollection.html" class="tsd-signature-type" data-tsd-kind="Class">TypedCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><a href="../interfaces/Constants.APIForumTopicComment.html" class="tsd-signature-type" data-tsd-kind="Interface">APIForumTopicComment</a><span class="tsd-signature-symbol">, </span><a href="ForumThreadComment.ForumThreadComment.html" class="tsd-signature-type" data-tsd-kind="Class">ForumThreadComment</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">&gt;</span></div>
+<div class="tsd-comment tsd-typography"><p>Cached comments.</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L42">lib/structures/ForumThread.ts:42</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="content" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>content</span><a href="#content" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">content<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 <div class="tsd-comment tsd-typography"><p>Content of the thread</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L32">lib/structures/ForumThread.ts:32</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L38">lib/structures/ForumThread.ts:38</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="createdAt" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>created<wbr/>At</span><a href="#createdAt" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">created<wbr/>At<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Date</span></div>
 <div class="tsd-comment tsd-typography"><p>When this forum thread was created.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L22">lib/structures/ForumThread.ts:22</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L26">lib/structures/ForumThread.ts:26</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="editedTimestamp" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>edited<wbr/>Timestamp</span><a href="#editedTimestamp" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">edited<wbr/>Timestamp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Date</span></div>
 <div class="tsd-comment tsd-typography"><p>Timestamp at which this channel was last edited.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L28">lib/structures/ForumThread.ts:28</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L34">lib/structures/ForumThread.ts:34</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="guildID" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>guildID</span><a href="#guildID" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">guildID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-<div class="tsd-comment tsd-typography"><p>Guild/server id</p>
+<div class="tsd-comment tsd-typography"><p>Guild ID</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L16">lib/structures/ForumThread.ts:16</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L20">lib/structures/ForumThread.ts:20</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a id="id" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>id</span><a href="#id" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+<div class="tsd-signature">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 <div class="tsd-comment tsd-typography"><p>Item ID</p>
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="Base.Base.html">Base</a>.<a href="Base.Base.html#id">id</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/Base.ts#L10">lib/structures/Base.ts:10</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/Base.ts#L12">lib/structures/Base.ts:12</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="isLocked" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>is<wbr/>Locked</span><a href="#isLocked" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<div class="tsd-signature">is<wbr/>Locked<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+<div class="tsd-comment tsd-typography"><p>If true, the thread is locked.</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L44">lib/structures/ForumThread.ts:44</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="isPinned" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>is<wbr/>Pinned</span><a href="#isPinned" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<div class="tsd-signature">is<wbr/>Pinned<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+<div class="tsd-comment tsd-typography"><p>If true, the thread is pinned.</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L46">lib/structures/ForumThread.ts:46</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="mentions" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>mentions</span><a href="#mentions" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">mentions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../types/Constants.APIMentions.html" class="tsd-signature-type" data-tsd-kind="Type alias">APIMentions</a></div>
 <div class="tsd-comment tsd-typography"><p>Thread mentions</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L34">lib/structures/ForumThread.ts:34</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L40">lib/structures/ForumThread.ts:40</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="name" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>name</span><a href="#name" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 <div class="tsd-comment tsd-typography"><p>Name of the thread</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L20">lib/structures/ForumThread.ts:20</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L24">lib/structures/ForumThread.ts:24</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="owner" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>owner</span><a href="#owner" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<div class="tsd-signature">owner<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol"> extends </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol"> ? </span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol"> : </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol"> | </span><a href="User.User.html" class="tsd-signature-type" data-tsd-kind="Class">User</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol">&gt;</span></div>
+<div class="tsd-comment tsd-typography"><p>Owner of this thread, if cached.</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L28">lib/structures/ForumThread.ts:28</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="ownerID" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>ownerID</span><a href="#ownerID" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">ownerID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 <div class="tsd-comment tsd-typography"><p>The ID of the owner of this thread.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L24">lib/structures/ForumThread.ts:24</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L30">lib/structures/ForumThread.ts:30</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="webhookID" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>webhookID</span><a href="#webhookID" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">webhookID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 <div class="tsd-comment tsd-typography"><p>ID of the webhook that created the thread (if created by webhook)</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L26">lib/structures/ForumThread.ts:26</a></li></ul></aside></section></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L32">lib/structures/ForumThread.ts:32</a></li></ul></aside></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Accessors</h2>
 <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class"><a id="channel" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>channel</span><a href="#channel" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-<li class="tsd-signature" id="channel.channel-1"><span class="tsd-signature-symbol">get</span> channel<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Channel.Channel.html" class="tsd-signature-type" data-tsd-kind="Class">Channel</a><span class="tsd-signature-symbol">&gt;</span></li>
+<li class="tsd-signature" id="channel.channel-1"><span class="tsd-signature-symbol">get</span> channel<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol"> extends </span><a href="TextChannel.TextChannel.html" class="tsd-signature-type" data-tsd-kind="Class">TextChannel</a><span class="tsd-signature-symbol"> ? </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> : </span><span class="tsd-signature-type">undefined</span></li>
 <li class="tsd-description">
-<div class="tsd-comment tsd-typography"><p>The forum channel, where the thread is in.
-This will send a request to Guilded, a promise will be returned.</p>
+<div class="tsd-comment tsd-typography"><p>The forum channel this thread was created in.</p>
 </div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Channel.Channel.html" class="tsd-signature-type" data-tsd-kind="Class">Channel</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol"> extends </span><a href="TextChannel.TextChannel.html" class="tsd-signature-type" data-tsd-kind="Class">TextChannel</a><span class="tsd-signature-symbol"> ? </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> : </span><span class="tsd-signature-type">undefined</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L78">lib/structures/ForumThread.ts:78</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L142">lib/structures/ForumThread.ts:142</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class"><a id="createdByWebhook" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>created<wbr/>By<wbr/>Webhook</span><a href="#createdByWebhook" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
@@ -203,30 +244,17 @@ This will send a request to Guilded, a promise will be returned.</p>
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L83">lib/structures/ForumThread.ts:83</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L147">lib/structures/ForumThread.ts:147</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class"><a id="guild" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>guild</span><a href="#guild" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-<li class="tsd-signature" id="guild.guild-1"><span class="tsd-signature-symbol">get</span> guild<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol">&gt;</span></li>
+<li class="tsd-signature" id="guild.guild-1"><span class="tsd-signature-symbol">get</span> guild<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol"> extends </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol"> ? </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol"> : </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a></li>
 <li class="tsd-description">
-<div class="tsd-comment tsd-typography"><p>Guild where this thread&#39;s owner comes from, returns Guild or a promise.
-If guild isn&#39;t cached &amp; the request failed, this will return you undefined.</p>
+<div class="tsd-comment tsd-typography"><p>The guild the thread is in. This will throw an error if the guild isn&#39;t cached.</p>
 </div>
-<h4 class="tsd-returns-title">Returns <a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol"> extends </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol"> ? </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a><span class="tsd-signature-symbol"> : </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="Guild.Guild.html" class="tsd-signature-type" data-tsd-kind="Class">Guild</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L57">lib/structures/ForumThread.ts:57</a></li></ul></aside></li></ul></section>
-<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class"><a id="owner" class="tsd-anchor"></a>
-<h3 class="tsd-anchor-link"><span>owner</span><a href="#owner" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-<li class="tsd-signature" id="owner.owner-1"><span class="tsd-signature-symbol">get</span> owner<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="User.User.html" class="tsd-signature-type" data-tsd-kind="Class">User</a><span class="tsd-signature-symbol"> | </span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol">&gt;</span></li>
-<li class="tsd-description">
-<div class="tsd-comment tsd-typography"><p>Retrieve thread&#39;s owner, if cached.
-If there is no cached member or user, this will make a request which returns a Promise.
-If the request fails, this will throw an error or return you undefined as a value.</p>
-</div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="User.User.html" class="tsd-signature-type" data-tsd-kind="Class">User</a><span class="tsd-signature-symbol"> | </span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Member.Member.html" class="tsd-signature-type" data-tsd-kind="Class">Member</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L65">lib/structures/ForumThread.ts:65</a></li></ul></aside></li></ul></section></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L131">lib/structures/ForumThread.ts:131</a></li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Methods</h2>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="createForumComment" class="tsd-anchor"></a>
@@ -245,7 +273,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="ForumThreadComment.ForumThreadComment.html" class="tsd-signature-type" data-tsd-kind="Class">ForumThreadComment</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L90">lib/structures/ForumThread.ts:90</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L154">lib/structures/ForumThread.ts:154</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="createReaction" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>create<wbr/>Reaction</span><a href="#createReaction" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -262,7 +290,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L129">lib/structures/ForumThread.ts:129</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L193">lib/structures/ForumThread.ts:193</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="delete" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>delete</span><a href="#delete" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -272,7 +300,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L102">lib/structures/ForumThread.ts:102</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L166">lib/structures/ForumThread.ts:166</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="deleteReaction" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>delete<wbr/>Reaction</span><a href="#deleteReaction" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -289,11 +317,11 @@ If the request fails, this will throw an error or return you undefined as a valu
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L136">lib/structures/ForumThread.ts:136</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L200">lib/structures/ForumThread.ts:200</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="edit" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>edit</span><a href="#edit" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-<li class="tsd-signature tsd-anchor-link" id="edit.edit-1">edit<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">: </span><a href="../interfaces/types_forumThread.EditForumThreadOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">EditForumThreadOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="ForumThread.ForumThread.html" class="tsd-signature-type" data-tsd-kind="Class">ForumThread</a><span class="tsd-signature-symbol">&gt;</span><a href="#edit.edit-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="edit.edit-1">edit<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">: </span><a href="../interfaces/types_forumThread.EditForumThreadOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">EditForumThreadOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="ForumThread.ForumThread.html" class="tsd-signature-type" data-tsd-kind="Class">ForumThread</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><a href="#edit.edit-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Edit the forum thread.</p>
 </div>
@@ -304,9 +332,9 @@ If the request fails, this will throw an error or return you undefined as a valu
 <h5>options: <a href="../interfaces/types_forumThread.EditForumThreadOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">EditForumThreadOptions</a></h5>
 <div class="tsd-comment tsd-typography"><p>Edit options.</p>
 </div></li></ul></div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="ForumThread.ForumThread.html" class="tsd-signature-type" data-tsd-kind="Class">ForumThread</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="ForumThread.ForumThread.html" class="tsd-signature-type" data-tsd-kind="Class">ForumThread</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L97">lib/structures/ForumThread.ts:97</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L161">lib/structures/ForumThread.ts:161</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="lock" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>lock</span><a href="#lock" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -316,7 +344,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L117">lib/structures/ForumThread.ts:117</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L181">lib/structures/ForumThread.ts:181</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="pin" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>pin</span><a href="#pin" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -326,7 +354,16 @@ If the request fails, this will throw an error or return you undefined as a valu
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L107">lib/structures/ForumThread.ts:107</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L171">lib/structures/ForumThread.ts:171</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="toJSON" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>toJSON</span><a href="#toJSON" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+<li class="tsd-signature tsd-anchor-link" id="toJSON.toJSON-1">toJSON<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/types_json.JSONForumThread.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONForumThread</a><a href="#toJSON.toJSON-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-description">
+<h4 class="tsd-returns-title">Returns <a href="../interfaces/types_json.JSONForumThread.html" class="tsd-signature-type" data-tsd-kind="Interface">JSONForumThread</a></h4><aside class="tsd-sources">
+<p>Overrides <a href="Base.Base.html">Base</a>.<a href="Base.Base.html#toJSON">toJSON</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L71">lib/structures/ForumThread.ts:71</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="unlock" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>unlock</span><a href="#unlock" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -336,7 +373,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L122">lib/structures/ForumThread.ts:122</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L186">lib/structures/ForumThread.ts:186</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="unpin" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>unpin</span><a href="#unpin" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -346,7 +383,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/pakkographic/TouchGuild/blob/2022c66/lib/structures/ForumThread.ts#L112">lib/structures/ForumThread.ts:112</a></li></ul></aside></li></ul></section></section></div>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild-devfork/blob/908ac6d/lib/structures/ForumThread.ts#L176">lib/structures/ForumThread.ts:176</a></li></ul></aside></li></ul></section></section></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <div class="tsd-navigation settings">
 <details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
@@ -369,6 +406,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 <li class="tsd-kind-module"><a href="../modules/BannedMember.html">Banned<wbr/>Member</a></li>
 <li class="tsd-kind-module"><a href="../modules/Base.html">Base</a></li>
 <li class="tsd-kind-module"><a href="../modules/Bucket.html">Bucket</a></li>
+<li class="tsd-kind-module"><a href="../modules/CalendarChannel.html">Calendar<wbr/>Channel</a></li>
 <li class="tsd-kind-module"><a href="../modules/CalendarEvent.html">Calendar<wbr/>Event</a></li>
 <li class="tsd-kind-module"><a href="../modules/CalendarHandler.html">Calendar<wbr/>Handler</a></li>
 <li class="tsd-kind-module"><a href="../modules/CalendarRSVP.html">CalendarRSVP</a></li>
@@ -378,8 +416,10 @@ If the request fails, this will throw an error or return you undefined as a valu
 <li class="tsd-kind-module"><a href="../modules/Collection.html">Collection</a></li>
 <li class="tsd-kind-module"><a href="../modules/Constants.html">Constants</a></li>
 <li class="tsd-kind-module"><a href="../modules/Doc.html">Doc</a></li>
+<li class="tsd-kind-module"><a href="../modules/DocChannel.html">Doc<wbr/>Channel</a></li>
 <li class="tsd-kind-module"><a href="../modules/DocHandler.html">Doc<wbr/>Handler</a></li>
 <li class="tsd-kind-module"><a href="../modules/Events.html">Events</a></li>
+<li class="tsd-kind-module"><a href="../modules/ForumChannel.html">Forum<wbr/>Channel</a></li>
 <li class="current selected tsd-kind-module"><a href="../modules/ForumThread.html">Forum<wbr/>Thread</a></li>
 <li class="tsd-kind-module"><a href="../modules/ForumThreadComment.html">Forum<wbr/>Thread<wbr/>Comment</a></li>
 <li class="tsd-kind-module"><a href="../modules/ForumThreadHandler.html">Forum<wbr/>Thread<wbr/>Handler</a></li>
@@ -388,6 +428,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 <li class="tsd-kind-module"><a href="../modules/GatewayEventHandler.html">Gateway<wbr/>Event<wbr/>Handler</a></li>
 <li class="tsd-kind-module"><a href="../modules/GatewayHandler.html">Gateway<wbr/>Handler</a></li>
 <li class="tsd-kind-module"><a href="../modules/Guild.html">Guild</a></li>
+<li class="tsd-kind-module"><a href="../modules/GuildChannel.html">Guild<wbr/>Channel</a></li>
 <li class="tsd-kind-module"><a href="../modules/GuildHandler.html">Guild<wbr/>Handler</a></li>
 <li class="tsd-kind-module"><a href="../modules/GuildedHTTPError.html">GuildedHTTPError</a></li>
 <li class="tsd-kind-module"><a href="../modules/GuildedRESTError.html">GuildedRESTError</a></li>
@@ -407,6 +448,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 <li class="tsd-kind-module"><a href="../modules/Routes_Guilds.html">Routes/<wbr/>Guilds</a></li>
 <li class="tsd-kind-module"><a href="../modules/Routes_Guilds-1.html">Routes/<wbr/>Guilds</a></li>
 <li class="tsd-kind-module"><a href="../modules/SequentialBucket.html">Sequential<wbr/>Bucket</a></li>
+<li class="tsd-kind-module"><a href="../modules/TextChannel.html">Text<wbr/>Channel</a></li>
 <li class="tsd-kind-module"><a href="../modules/TypedCollection.html">Typed<wbr/>Collection</a></li>
 <li class="tsd-kind-module"><a href="../modules/TypedEmitter.html">Typed<wbr/>Emitter</a></li>
 <li class="tsd-kind-module"><a href="../modules/Types.html">Types</a></li>
@@ -429,6 +471,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 <li class="tsd-kind-module"><a href="../modules/types_forumThreadComment.html">types/forum<wbr/>Thread<wbr/>Comment</a></li>
 <li class="tsd-kind-module"><a href="../modules/types_gateway_raw.html">types/gateway-<wbr/>raw</a></li>
 <li class="tsd-kind-module"><a href="../modules/types_guilds.html">types/guilds</a></li>
+<li class="tsd-kind-module"><a href="../modules/types_json.html">types/json</a></li>
 <li class="tsd-kind-module"><a href="../modules/types_listItem.html">types/list<wbr/>Item</a></li>
 <li class="tsd-kind-module"><a href="../modules/types_webhook.html">types/webhook</a></li>
 <li class="tsd-kind-module"><a href="../modules/types_webhooks.html">types/webhooks</a></li></ul></li></ul></div></details></nav>
@@ -440,19 +483,22 @@ If the request fails, this will throw an error or return you undefined as a valu
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#bumpedAt" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>bumped<wbr/>At</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#channelID" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>channelID</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ForumThread.ForumThread.html#client" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>client</a></li>
+<li class="tsd-kind-property tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#comments" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>comments</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#content" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>content</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#createdAt" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>created<wbr/>At</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#editedTimestamp" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>edited<wbr/>Timestamp</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#guildID" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>guildID</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ForumThread.ForumThread.html#id" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>id</a></li>
+<li class="tsd-kind-property tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#isLocked" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>is<wbr/>Locked</a></li>
+<li class="tsd-kind-property tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#isPinned" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>is<wbr/>Pinned</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#mentions" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>mentions</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#name" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>name</a></li>
+<li class="tsd-kind-property tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#owner" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>owner</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#ownerID" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>ownerID</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#webhookID" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>webhookID</a></li>
 <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#channel" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>channel</a></li>
 <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#createdByWebhook" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>created<wbr/>By<wbr/>Webhook</a></li>
 <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#guild" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>guild</a></li>
-<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#owner" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>owner</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#createForumComment" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>create<wbr/>Forum<wbr/>Comment</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#createReaction" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>create<wbr/>Reaction</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#delete" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>delete</a></li>
@@ -460,6 +506,7 @@ If the request fails, this will throw an error or return you undefined as a valu
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#edit" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>edit</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#lock" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>lock</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#pin" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>pin</a></li>
+<li class="tsd-kind-method tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#toJSON" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>toJSON</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#unlock" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>unlock</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="ForumThread.ForumThread.html#unpin" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>unpin</a></li></ul></li></ul></nav></div></div>
 <div class="overlay"></div><script src="../assets/main.js"></script></body></html>
