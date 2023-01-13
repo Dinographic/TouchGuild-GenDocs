@@ -1,31 +1,42 @@
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
-  body {
-    background-color: rgb(24, 28, 31);
-      display: table;
-    font-family: "Montserrat", sans-serif;
-  }
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 
-  h1, h2, a {
-    color: white;
-  }
+* {
+  transition: ease-in-out !important;
+  transition-duration: 0.2s !important;
+}
 
-  div#main {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-  }
+body {
+  background-color: rgb(24, 28, 31);
+  display: table;
+  font-family: "Montserrat", sans-serif;
+}
 
-  span.spacer {
+h1, h2, a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(173, 86, 255);
+}
+
+div#main {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+span.spacer {
     margin-left: 1rem;
     margin-right: 1rem;
-  }
+}
 
-  a:visited {
-    color: whitesmoke;
-  }
+a:visited {
+  color: whitesmoke;
+}
   
