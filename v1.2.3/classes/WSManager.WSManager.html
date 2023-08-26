@@ -1,0 +1,1050 @@
+<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><script>localStorage.setItem('tsd-theme', localStorage.getItem('tsd-theme') || 'dark')</script><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>WSManager | TouchGuild</title><meta name="description" content="Documentation for TouchGuild"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script defer src="../assets/main.js"></script><script async src="../assets/search.js" id="tsd-search-script"></script><link rel="icon" href="../favicon.ico" />
+</head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
+<div class="tsd-toolbar-contents container">
+<div class="table-cell" id="tsd-search" data-base="..">
+<div class="field"><label for="tsd-search-field" class="tsd-widget tsd-toolbar-icon search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M15.7824 13.833L12.6666 10.7177C12.5259 10.5771 12.3353 10.499 12.1353 10.499H11.6259C12.4884 9.39596 13.001 8.00859 13.001 6.49937C13.001 2.90909 10.0914 0 6.50048 0C2.90959 0 0 2.90909 0 6.49937C0 10.0896 2.90959 12.9987 6.50048 12.9987C8.00996 12.9987 9.39756 12.4863 10.5008 11.6239V12.1332C10.5008 12.3332 10.5789 12.5238 10.7195 12.6644L13.8354 15.7797C14.1292 16.0734 14.6042 16.0734 14.8948 15.7797L15.7793 14.8954C16.0731 14.6017 16.0731 14.1267 15.7824 13.833ZM6.50048 10.499C4.29094 10.499 2.50018 8.71165 2.50018 6.49937C2.50018 4.29021 4.28781 2.49976 6.50048 2.49976C8.71001 2.49976 10.5008 4.28708 10.5008 6.49937C10.5008 8.70852 8.71314 10.499 6.50048 10.499Z" fill="var(--color-text)"></path></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div>
+<div class="field">
+<div id="tsd-toolbar-links"></div></div>
+<ul class="results">
+<li class="state loading">Preparing search index...</li>
+<li class="state failure">The search index is not available</li></ul><a href="../index.html" class="title">TouchGuild</a></div>
+<div class="table-cell" id="tsd-widgets"><a href="#" class="tsd-widget tsd-toolbar-icon menu no-caption" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="3" width="14" height="2" fill="var(--color-text)"></rect><rect x="1" y="7" width="14" height="2" fill="var(--color-text)"></rect><rect x="1" y="11" width="14" height="2" fill="var(--color-text)"></rect></svg></a></div></div></header>
+<div class="container container-main">
+<div class="col-content">
+<div class="tsd-page-title">
+<ul class="tsd-breadcrumb">
+<li><a href="../index.html">TouchGuild</a></li>
+<li><a href="../modules/WSManager.html">WSManager</a></li>
+<li><a href="WSManager.WSManager.html">WSManager</a></li></ul>
+<h1>Class WSManager</h1></div>
+<section class="tsd-panel tsd-comment">
+<div class="tsd-comment tsd-typography"><p>Websocket manager, used to receive ws events.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></section>
+<section class="tsd-panel tsd-hierarchy">
+<h4>Hierarchy</h4>
+<ul class="tsd-hierarchy">
+<li><a href="TypedEmitter.TypedEmitter.html" class="tsd-signature-type tsd-kind-class">TypedEmitter</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a><span class="tsd-signature-symbol">&gt;</span>
+<ul class="tsd-hierarchy">
+<li><span class="target">WSManager</span></li></ul></li></ul></section><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L42">lib/gateway/WSManager.ts:42</a></li></ul></aside>
+<section class="tsd-panel-group tsd-index-group">
+<section class="tsd-panel tsd-index-panel">
+<details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
+<h5 class="tsd-index-heading uppercase" role="button" aria-expanded="false" tabIndex=0><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M1.5 5.50969L8 11.6609L14.5 5.50969L12.5466 3.66086L8 7.96494L3.45341 3.66086L1.5 5.50969Z" fill="var(--color-text)"></path></svg> Index</h5></summary>
+<div class="tsd-accordion-details">
+<section class="tsd-index-section">
+<h3 class="tsd-index-heading">Constructors</h3>
+<div class="tsd-index-list"><a href="WSManager.WSManager.html#constructor" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-512"><rect fill="var(--color-icon-background)" stroke="#4D7FFF" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12"></rect><path d="M11.898 16.1201C11.098 16.1201 10.466 15.8961 10.002 15.4481C9.53803 15.0001 9.30603 14.3841 9.30603 13.6001V9.64012C9.30603 8.85612 9.53803 8.24012 10.002 7.79212C10.466 7.34412 11.098 7.12012 11.898 7.12012C12.682 7.12012 13.306 7.34812 13.77 7.80412C14.234 8.25212 14.466 8.86412 14.466 9.64012H13.386C13.386 9.14412 13.254 8.76412 12.99 8.50012C12.734 8.22812 12.37 8.09212 11.898 8.09212C11.426 8.09212 11.054 8.22412 10.782 8.48812C10.518 8.75212 10.386 9.13212 10.386 9.62812V13.6001C10.386 14.0961 10.518 14.4801 10.782 14.7521C11.054 15.0161 11.426 15.1481 11.898 15.1481C12.37 15.1481 12.734 15.0161 12.99 14.7521C13.254 14.4801 13.386 14.0961 13.386 13.6001H14.466C14.466 14.3761 14.234 14.9921 13.77 15.4481C13.306 15.8961 12.682 16.1201 11.898 16.1201Z" fill="var(--color-text)"></path></g></svg><span>constructor</span></a>
+</div></section>
+<section class="tsd-index-section">
+<h3 class="tsd-index-heading">Properties</h3>
+<div class="tsd-index-list"><a href="WSManager.WSManager.html#alive" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-1024"><rect fill="var(--color-icon-background)" stroke="#FF984D" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12"></rect><path d="M9.354 16V7.24H12.174C12.99 7.24 13.638 7.476 14.118 7.948C14.606 8.412 14.85 9.036 14.85 9.82C14.85 10.604 14.606 11.232 14.118 11.704C13.638 12.168 12.99 12.4 12.174 12.4H10.434V16H9.354ZM10.434 11.428H12.174C12.646 11.428 13.022 11.284 13.302 10.996C13.59 10.7 13.734 10.308 13.734 9.82C13.734 9.324 13.59 8.932 13.302 8.644C13.022 8.356 12.646 8.212 12.174 8.212H10.434V11.428Z" fill="var(--color-text)"></path></g></svg><span>alive?</span></a>
+<a href="WSManager.WSManager.html#apiversion" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>apiversion</span></a>
+<a href="WSManager.WSManager.html#client" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>client</span></a>
+<a href="WSManager.WSManager.html#compression" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>compression</span></a>
+<a href="WSManager.WSManager.html#connected" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>connected</span></a>
+<a href="WSManager.WSManager.html#connectionTimeout" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>connection<wbr/>Timeout</span></a>
+<a href="WSManager.WSManager.html#currReconnectAttempt" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>curr<wbr/>Reconnect<wbr/>Attempt</span></a>
+<a href="WSManager.WSManager.html#firstwsMessage" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>firstws<wbr/>Message</span></a>
+<a href="WSManager.WSManager.html#heartbeatRequested" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>heartbeat<wbr/>Requested</span></a>
+<a href="WSManager.WSManager.html#lastHeartbeatAck" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>last<wbr/>Heartbeat<wbr/>Ack</span></a>
+<a href="WSManager.WSManager.html#lastHeartbeatReceived" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>last<wbr/>Heartbeat<wbr/>Received</span></a>
+<a href="WSManager.WSManager.html#lastHeartbeatSent" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>last<wbr/>Heartbeat<wbr/>Sent</span></a>
+<a href="WSManager.WSManager.html#lastMessageID" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>last<wbr/>MessageID?</span></a>
+<a href="WSManager.WSManager.html#latency" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>latency</span></a>
+<a href="WSManager.WSManager.html#params" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>params</span></a>
+<a href="WSManager.WSManager.html#proxyURL" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>proxyURL</span></a>
+<a href="WSManager.WSManager.html#reconnect" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>reconnect?</span></a>
+<a href="WSManager.WSManager.html#reconnectAttemptLimit" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>reconnect<wbr/>Attempt<wbr/>Limit?</span></a>
+<a href="WSManager.WSManager.html#reconnectInterval" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>reconnect<wbr/>Interval</span></a>
+<a href="WSManager.WSManager.html#replayMissedEvents" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>replay<wbr/>Missed<wbr/>Events?</span></a>
+<a href="WSManager.WSManager.html#token" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>token</span></a>
+<a href="WSManager.WSManager.html#ws" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>ws</span></a>
+<a href="WSManager.WSManager.html#captureRejectionSymbol" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>capture<wbr/>Rejection<wbr/>Symbol</span></a>
+<a href="WSManager.WSManager.html#captureRejections" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>capture<wbr/>Rejections</span></a>
+<a href="WSManager.WSManager.html#defaultMaxListeners" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>default<wbr/>Max<wbr/>Listeners</span></a>
+<a href="WSManager.WSManager.html#errorMonitor" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>error<wbr/>Monitor</span></a>
+</div></section>
+<section class="tsd-index-section">
+<h3 class="tsd-index-heading">Accessors</h3>
+<div class="tsd-index-list"><a href="WSManager.WSManager.html#replayEventsCondition" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-262144"><rect fill="var(--color-icon-background)" stroke="#FF4D4D" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12"></rect><path d="M8.85 16L11.13 7.24H12.582L14.85 16H13.758L13.182 13.672H10.53L9.954 16H8.85ZM10.746 12.76H12.954L12.282 10.06C12.154 9.548 12.054 9.12 11.982 8.776C11.91 8.432 11.866 8.208 11.85 8.104C11.834 8.208 11.79 8.432 11.718 8.776C11.646 9.12 11.546 9.544 11.418 10.048L10.746 12.76Z" fill="var(--color-text)"></path></g></svg><span>replay<wbr/>Events<wbr/>Condition</span></a>
+<a href="WSManager.WSManager.html#vAPI" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-262144"></use></svg><span>vAPI</span></a>
+</div></section>
+<section class="tsd-index-section">
+<h3 class="tsd-index-heading">Methods</h3>
+<div class="tsd-index-list"><a href="WSManager.WSManager.html#_debug" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-2048"><rect fill="var(--color-icon-background)" stroke="#FF4DB8" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12"></rect><path d="M9.162 16V7.24H10.578L11.514 10.072C11.602 10.328 11.674 10.584 11.73 10.84C11.794 11.088 11.842 11.28 11.874 11.416C11.906 11.28 11.954 11.088 12.018 10.84C12.082 10.584 12.154 10.324 12.234 10.06L13.122 7.24H14.538V16H13.482V12.82C13.482 12.468 13.49 12.068 13.506 11.62C13.53 11.172 13.558 10.716 13.59 10.252C13.622 9.78 13.654 9.332 13.686 8.908C13.726 8.476 13.762 8.1 13.794 7.78L12.366 12.16H11.334L9.894 7.78C9.934 8.092 9.97 8.456 10.002 8.872C10.042 9.28 10.078 9.716 10.11 10.18C10.142 10.636 10.166 11.092 10.182 11.548C10.206 12.004 10.218 12.428 10.218 12.82V16H9.162Z" fill="var(--color-text)"></path></g></svg><span>_debug</span></a>
+<a href="WSManager.WSManager.html#addListener" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>add<wbr/>Listener</span></a>
+<a href="WSManager.WSManager.html#connect" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>connect</span></a>
+<a href="WSManager.WSManager.html#disconnect" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>disconnect</span></a>
+<a href="WSManager.WSManager.html#emit" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>emit</span></a>
+<a href="WSManager.WSManager.html#eventNames" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>event<wbr/>Names</span></a>
+<a href="WSManager.WSManager.html#getMaxListeners" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Max<wbr/>Listeners</span></a>
+<a href="WSManager.WSManager.html#hardReset" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>hard<wbr/>Reset</span></a>
+<a href="WSManager.WSManager.html#listenerCount" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>listener<wbr/>Count</span></a>
+<a href="WSManager.WSManager.html#listeners" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>listeners</span></a>
+<a href="WSManager.WSManager.html#off" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>off</span></a>
+<a href="WSManager.WSManager.html#on" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>on</span></a>
+<a href="WSManager.WSManager.html#once" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>once</span></a>
+<a href="WSManager.WSManager.html#prependListener" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>prepend<wbr/>Listener</span></a>
+<a href="WSManager.WSManager.html#prependOnceListener" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>prepend<wbr/>Once<wbr/>Listener</span></a>
+<a href="WSManager.WSManager.html#rawListeners" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>raw<wbr/>Listeners</span></a>
+<a href="WSManager.WSManager.html#removeAllListeners" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>remove<wbr/>All<wbr/>Listeners</span></a>
+<a href="WSManager.WSManager.html#removeListener" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>remove<wbr/>Listener</span></a>
+<a href="WSManager.WSManager.html#reset" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>reset</span></a>
+<a href="WSManager.WSManager.html#setMaxListeners" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>set<wbr/>Max<wbr/>Listeners</span></a>
+<a href="WSManager.WSManager.html#getEventListeners" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Event<wbr/>Listeners</span></a>
+<a href="WSManager.WSManager.html#listenerCount-2" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>listener<wbr/>Count</span></a>
+<a href="WSManager.WSManager.html#on-2" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>on</span></a>
+<a href="WSManager.WSManager.html#once-2" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>once</span></a>
+<a href="WSManager.WSManager.html#setMaxListeners-2" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>set<wbr/>Max<wbr/>Listeners</span></a>
+</div></section></div></details></section></section>
+<section class="tsd-panel-group tsd-member-group">
+<h2>Constructors</h2>
+<section class="tsd-panel tsd-member"><a id="constructor" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>constructor</span><a href="#constructor" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><g stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" id="icon-anchor"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5"></path></g></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="constructor.new_WSManager"><span class="tsd-kind-constructor-signature">new WSManager</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">client</span>, <span class="tsd-kind-parameter">params</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a><a href="#constructor.new_WSManager" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">client</span>: <a href="Client.Client.html" class="tsd-signature-type tsd-kind-class">Client</a></h5></li>
+<li>
+<h5><span class="tsd-kind-parameter">params</span>: <a href="../interfaces/WSManager.WSManagerParams.html" class="tsd-signature-type tsd-kind-interface">WSManagerParams</a></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a></h4><aside class="tsd-sources">
+<p>Overrides <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#constructor">constructor</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L68">lib/gateway/WSManager.ts:68</a></li></ul></aside></li></ul></section></section>
+<section class="tsd-panel-group tsd-member-group">
+<h2>Properties</h2>
+<section class="tsd-panel tsd-member"><a id="alive" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>alive</span><a href="#alive" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">alive</span><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L57">lib/gateway/WSManager.ts:57</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="apiversion" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>apiversion</span><a href="#apiversion" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">apiversion</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L47">lib/gateway/WSManager.ts:47</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="client" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>client</span><a href="#client" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">client</span><span class="tsd-signature-symbol">:</span> <a href="Client.Client.html" class="tsd-signature-type tsd-kind-class">Client</a></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L45">lib/gateway/WSManager.ts:45</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="compression" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>compression</span><a href="#compression" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">compression</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L66">lib/gateway/WSManager.ts:66</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="connected" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>connected</span><a href="#connected" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">connected</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L63">lib/gateway/WSManager.ts:63</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="connectionTimeout" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>connection<wbr/>Timeout</span><a href="#connectionTimeout" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">connection<wbr/>Timeout</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L64">lib/gateway/WSManager.ts:64</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="currReconnectAttempt" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>curr<wbr/>Reconnect<wbr/>Attempt</span><a href="#currReconnectAttempt" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">curr<wbr/>Reconnect<wbr/>Attempt</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L55">lib/gateway/WSManager.ts:55</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="firstwsMessage" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>firstws<wbr/>Message</span><a href="#firstwsMessage" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">firstws<wbr/>Message</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L54">lib/gateway/WSManager.ts:54</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="heartbeatRequested" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>heartbeat<wbr/>Requested</span><a href="#heartbeatRequested" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">heartbeat<wbr/>Requested</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L62">lib/gateway/WSManager.ts:62</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="lastHeartbeatAck" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>last<wbr/>Heartbeat<wbr/>Ack</span><a href="#lastHeartbeatAck" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">last<wbr/>Heartbeat<wbr/>Ack</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L60">lib/gateway/WSManager.ts:60</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="lastHeartbeatReceived" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>last<wbr/>Heartbeat<wbr/>Received</span><a href="#lastHeartbeatReceived" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">last<wbr/>Heartbeat<wbr/>Received</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L59">lib/gateway/WSManager.ts:59</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="lastHeartbeatSent" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>last<wbr/>Heartbeat<wbr/>Sent</span><a href="#lastHeartbeatSent" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">last<wbr/>Heartbeat<wbr/>Sent</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L58">lib/gateway/WSManager.ts:58</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="lastMessageID" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>last<wbr/>MessageID</span><a href="#lastMessageID" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">last<wbr/>MessageID</span><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">string</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L53">lib/gateway/WSManager.ts:53</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="latency" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>latency</span><a href="#latency" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">latency</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L61">lib/gateway/WSManager.ts:61</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="params" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>params</span><a href="#params" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">params</span><span class="tsd-signature-symbol">:</span> <a href="../interfaces/WSManager.WSManagerParams.html" class="tsd-signature-type tsd-kind-interface">WSManagerParams</a></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L46">lib/gateway/WSManager.ts:46</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="proxyURL" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>proxyURL</span><a href="#proxyURL" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">proxyURL</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L48">lib/gateway/WSManager.ts:48</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="reconnect" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>reconnect</span><a href="#reconnect" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">reconnect</span><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L49">lib/gateway/WSManager.ts:49</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="reconnectAttemptLimit" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>reconnect<wbr/>Attempt<wbr/>Limit</span><a href="#reconnectAttemptLimit" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">reconnect<wbr/>Attempt<wbr/>Limit</span><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L50">lib/gateway/WSManager.ts:50</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="reconnectInterval" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>reconnect<wbr/>Interval</span><a href="#reconnectInterval" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">reconnect<wbr/>Interval</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L56">lib/gateway/WSManager.ts:56</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="replayMissedEvents" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>replay<wbr/>Missed<wbr/>Events</span><a href="#replayMissedEvents" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">replay<wbr/>Missed<wbr/>Events</span><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L51">lib/gateway/WSManager.ts:51</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="token" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>token</span><a href="#token" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">token</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L44">lib/gateway/WSManager.ts:44</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member"><a id="ws" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>ws</span><a href="#ws" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">ws</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type ">WebSocket</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L43">lib/gateway/WSManager.ts:43</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="captureRejectionSymbol" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <code class="tsd-tag ts-flagReadonly">Readonly</code> <span>capture<wbr/>Rejection<wbr/>Symbol</span><a href="#captureRejectionSymbol" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">capture<wbr/>Rejection<wbr/>Symbol</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">typeof </span><a href="WSManager.WSManager.html#captureRejectionSymbol" class="tsd-signature-type tsd-kind-property">captureRejectionSymbol</a></div><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#captureRejectionSymbol">captureRejectionSymbol</a></p>
+<ul>
+<li>Defined in node_modules/@types/node/events.d.ts:328</li></ul></aside></section>
+<section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="captureRejections" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <span>capture<wbr/>Rejections</span><a href="#captureRejections" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">capture<wbr/>Rejections</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+<div class="tsd-comment tsd-typography"><p>Sets or gets the default captureRejection value for all emitters.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#captureRejections">captureRejections</a></p>
+<ul>
+<li>Defined in node_modules/@types/node/events.d.ts:333</li></ul></aside></section>
+<section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="defaultMaxListeners" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <span>default<wbr/>Max<wbr/>Listeners</span><a href="#defaultMaxListeners" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">default<wbr/>Max<wbr/>Listeners</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#defaultMaxListeners">defaultMaxListeners</a></p>
+<ul>
+<li>Defined in node_modules/@types/node/events.d.ts:334</li></ul></aside></section>
+<section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="errorMonitor" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <code class="tsd-tag ts-flagReadonly">Readonly</code> <span>error<wbr/>Monitor</span><a href="#errorMonitor" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">error<wbr/>Monitor</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">typeof </span><a href="WSManager.WSManager.html#errorMonitor" class="tsd-signature-type tsd-kind-property">errorMonitor</a></div>
+<div class="tsd-comment tsd-typography"><p>This symbol shall be used to install a listener for only monitoring <code>&#39;error&#39;</code>
+events. Listeners installed using this symbol are called before the regular
+<code>&#39;error&#39;</code> listeners are called.</p>
+<p>Installing a listener using this symbol does not change the behavior once an
+<code>&#39;error&#39;</code> event is emitted, therefore the process will still crash if no
+regular <code>&#39;error&#39;</code> listener is installed.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#errorMonitor">errorMonitor</a></p>
+<ul>
+<li>Defined in node_modules/@types/node/events.d.ts:327</li></ul></aside></section></section>
+<section class="tsd-panel-group tsd-member-group">
+<h2>Accessors</h2>
+<section class="tsd-panel tsd-member"><a id="replayEventsCondition" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>replay<wbr/>Events<wbr/>Condition</span><a href="#replayEventsCondition" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature" id="replayEventsCondition.replayEventsCondition-1"><span class="tsd-signature-symbol">get</span> replayEventsCondition<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+<li class="tsd-description">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L123">lib/gateway/WSManager.ts:123</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member"><a id="vAPI" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>vAPI</span><a href="#vAPI" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature" id="vAPI.vAPI-1"><span class="tsd-signature-symbol">get</span> vAPI<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+<li class="tsd-description">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L115">lib/gateway/WSManager.ts:115</a></li></ul></aside></li></ul></section></section>
+<section class="tsd-panel-group tsd-member-group">
+<h2>Methods</h2>
+<section class="tsd-panel tsd-member"><a id="_debug" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>_debug</span><a href="#_debug" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="_debug._debug-1"><span class="tsd-kind-call-signature">_debug</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">message</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><a href="#_debug._debug-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">message</span>: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">object</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L119">lib/gateway/WSManager.ts:119</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited"><a id="addListener" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>add<wbr/>Listener</span><a href="#addListener" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited">
+<li class="tsd-signature tsd-anchor-link" id="addListener.addListener-1"><span class="tsd-kind-call-signature">add<wbr/>Listener</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">event</span>, <span class="tsd-kind-parameter">listener</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a><a href="#addListener.addListener-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<section class="tsd-panel">
+<h4>Type Parameters</h4>
+<ul class="tsd-type-parameter-list">
+<li>
+<h4><span class="tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol"> extends </span><span class="tsd-signature-symbol">keyof </span><a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a></h4></li></ul></section>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">event</span>: <span class="tsd-signature-type tsd-kind-type-parameter">K</span></h5></li>
+<li>
+<h5><span class="tsd-kind-parameter">listener</span>: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span></h5>
+<ul class="tsd-parameters">
+<li class="tsd-parameter-signature">
+<ul class="tsd-signatures">
+<li class="tsd-signature"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span>: <a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">]</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></li></ul></li></ul></div>
+<h4 class="tsd-returns-title">Returns <a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a></h4><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#addListener">addListener</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/types/TypedEmitter.ts#L6">lib/types/TypedEmitter.ts:6</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member"><a id="connect" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>connect</span><a href="#connect" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="connect.connect-1"><span class="tsd-kind-call-signature">connect</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type ">Error</span><a href="#connect.connect-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type ">Error</span></h4><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L127">lib/gateway/WSManager.ts:127</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member"><a id="disconnect" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>disconnect</span><a href="#disconnect" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="disconnect.disconnect-1"><span class="tsd-kind-call-signature">disconnect</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">reconnect</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">error</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#disconnect.disconnect-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">reconnect</span>: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> = ...</span></h5></li>
+<li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">error</span>: <span class="tsd-signature-type ">Error</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L312">lib/gateway/WSManager.ts:312</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited"><a id="emit" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>emit</span><a href="#emit" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited">
+<li class="tsd-signature tsd-anchor-link" id="emit.emit-1"><span class="tsd-kind-call-signature">emit</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">eventName</span>, <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><a href="#emit.emit-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<section class="tsd-panel">
+<h4>Type Parameters</h4>
+<ul class="tsd-type-parameter-list">
+<li>
+<h4><span class="tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol"> extends </span><span class="tsd-signature-symbol">keyof </span><a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a></h4></li></ul></section>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">eventName</span>: <span class="tsd-signature-type tsd-kind-type-parameter">K</span></h5></li>
+<li>
+<h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span>: <a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">]</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#emit">emit</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/types/TypedEmitter.ts#L7">lib/types/TypedEmitter.ts:7</a></li></ul></aside></li>
+<li class="tsd-signature tsd-anchor-link" id="emit.emit-2"><span class="tsd-kind-call-signature">emit</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">eventName</span>, <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><a href="#emit.emit-2" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<section class="tsd-panel">
+<h4>Type Parameters</h4>
+<ul class="tsd-type-parameter-list">
+<li>
+<h4><span class="tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol"> extends </span><span class="tsd-signature-symbol">keyof </span><a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a></h4></li></ul></section>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">eventName</span>: <span class="tsd-signature-type tsd-kind-type-parameter">K</span></h5></li>
+<li>
+<h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span>: <a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">]</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#emit">emit</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/types/TypedEmitter.ts#L22">lib/types/TypedEmitter.ts:22</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="eventNames" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>event<wbr/>Names</span><a href="#eventNames" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited tsd-is-external">
+<li class="tsd-signature tsd-anchor-link" id="eventNames.eventNames-1"><span class="tsd-kind-call-signature">event<wbr/>Names</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><a href="#eventNames.eventNames-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Returns an array listing the events for which the emitter has registered
+listeners. The values in the array are strings or <code>Symbol</code>s.</p>
+<pre><code class="language-js"><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">EventEmitter</span><span class="hl-1"> = </span><span class="hl-3">require</span><span class="hl-1">(</span><span class="hl-4">&#39;events&#39;</span><span class="hl-1">);</span><br/><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">myEE</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-3">EventEmitter</span><span class="hl-1">();</span><br/><span class="hl-5">myEE</span><span class="hl-1">.</span><span class="hl-3">on</span><span class="hl-1">(</span><span class="hl-4">&#39;foo&#39;</span><span class="hl-1">, () </span><span class="hl-0">=&gt;</span><span class="hl-1"> {});</span><br/><span class="hl-5">myEE</span><span class="hl-1">.</span><span class="hl-3">on</span><span class="hl-1">(</span><span class="hl-4">&#39;bar&#39;</span><span class="hl-1">, () </span><span class="hl-0">=&gt;</span><span class="hl-1"> {});</span><br/><br/><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">sym</span><span class="hl-1"> = </span><span class="hl-3">Symbol</span><span class="hl-1">(</span><span class="hl-4">&#39;symbol&#39;</span><span class="hl-1">);</span><br/><span class="hl-5">myEE</span><span class="hl-1">.</span><span class="hl-3">on</span><span class="hl-1">(</span><span class="hl-5">sym</span><span class="hl-1">, () </span><span class="hl-0">=&gt;</span><span class="hl-1"> {});</span><br/><br/><span class="hl-5">console</span><span class="hl-1">.</span><span class="hl-3">log</span><span class="hl-1">(</span><span class="hl-5">myEE</span><span class="hl-1">.</span><span class="hl-3">eventNames</span><span class="hl-1">());</span><br/><span class="hl-7">// Prints: [ &#39;foo&#39;, &#39;bar&#39;, Symbol(symbol) ]</span>
+</code><button>Copy</button></pre>
+</div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h4>
+<div class="tsd-comment tsd-typography">
+<h4>Since</h4><p>v6.0.0</p>
+</div><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#eventNames">eventNames</a></p>
+<ul>
+<li>Defined in node_modules/@types/node/events.d.ts:669</li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="getMaxListeners" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>get<wbr/>Max<wbr/>Listeners</span><a href="#getMaxListeners" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited tsd-is-external">
+<li class="tsd-signature tsd-anchor-link" id="getMaxListeners.getMaxListeners-1"><span class="tsd-kind-call-signature">get<wbr/>Max<wbr/>Listeners</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><a href="#getMaxListeners.getMaxListeners-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Returns the current max listener value for the <code>EventEmitter</code> which is either
+set by <code>emitter.setMaxListeners(n)</code> or defaults to <a href="WSManager.WSManager.html#defaultMaxListeners" class="tsd-kind-property">defaultMaxListeners</a>.</p>
+</div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+<div class="tsd-comment tsd-typography">
+<h4>Since</h4><p>v1.0.0</p>
+</div><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#getMaxListeners">getMaxListeners</a></p>
+<ul>
+<li>Defined in node_modules/@types/node/events.d.ts:526</li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member"><a id="hardReset" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>hard<wbr/>Reset</span><a href="#hardReset" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="hardReset.hardReset-1"><span class="tsd-kind-call-signature">hard<wbr/>Reset</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#hardReset.hardReset-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L390">lib/gateway/WSManager.ts:390</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited"><a id="listenerCount" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>listener<wbr/>Count</span><a href="#listenerCount" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited">
+<li class="tsd-signature tsd-anchor-link" id="listenerCount.listenerCount-1"><span class="tsd-kind-call-signature">listener<wbr/>Count</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">eventName</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><a href="#listenerCount.listenerCount-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">eventName</span>: <span class="tsd-signature-symbol">keyof </span><a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#listenerCount">listenerCount</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/types/TypedEmitter.ts#L8">lib/types/TypedEmitter.ts:8</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited"><a id="listeners" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>listeners</span><a href="#listeners" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited">
+<li class="tsd-signature tsd-anchor-link" id="listeners.listeners-1"><span class="tsd-kind-call-signature">listeners</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">eventName</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">Function</span><span class="tsd-signature-symbol">[]</span><a href="#listeners.listeners-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">eventName</span>: <span class="tsd-signature-symbol">keyof </span><a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Function</span><span class="tsd-signature-symbol">[]</span></h4><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#listeners">listeners</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/types/TypedEmitter.ts#L9">lib/types/TypedEmitter.ts:9</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited"><a id="off" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>off</span><a href="#off" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited">
+<li class="tsd-signature tsd-anchor-link" id="off.off-1"><span class="tsd-kind-call-signature">off</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">event</span>, <span class="tsd-kind-parameter">listener</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a><a href="#off.off-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<section class="tsd-panel">
+<h4>Type Parameters</h4>
+<ul class="tsd-type-parameter-list">
+<li>
+<h4><span class="tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol"> extends </span><span class="tsd-signature-symbol">keyof </span><a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a></h4></li></ul></section>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">event</span>: <span class="tsd-signature-type tsd-kind-type-parameter">K</span></h5></li>
+<li>
+<h5><span class="tsd-kind-parameter">listener</span>: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span></h5>
+<ul class="tsd-parameters">
+<li class="tsd-parameter-signature">
+<ul class="tsd-signatures">
+<li class="tsd-signature"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span>: <a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">]</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></li></ul></li></ul></div>
+<h4 class="tsd-returns-title">Returns <a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a></h4><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#off">off</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/types/TypedEmitter.ts#L10">lib/types/TypedEmitter.ts:10</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited"><a id="on" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>on</span><a href="#on" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited">
+<li class="tsd-signature tsd-anchor-link" id="on.on-1"><span class="tsd-kind-call-signature">on</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">event</span>, <span class="tsd-kind-parameter">listener</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a><a href="#on.on-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<section class="tsd-panel">
+<h4>Type Parameters</h4>
+<ul class="tsd-type-parameter-list">
+<li>
+<h4><span class="tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol"> extends </span><span class="tsd-signature-symbol">keyof </span><a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a></h4></li></ul></section>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">event</span>: <span class="tsd-signature-type tsd-kind-type-parameter">K</span></h5></li>
+<li>
+<h5><span class="tsd-kind-parameter">listener</span>: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span></h5>
+<ul class="tsd-parameters">
+<li class="tsd-parameter-signature">
+<ul class="tsd-signatures">
+<li class="tsd-signature"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span>: <a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">]</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></li></ul></li></ul></div>
+<h4 class="tsd-returns-title">Returns <a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a></h4><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#on">on</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/types/TypedEmitter.ts#L11">lib/types/TypedEmitter.ts:11</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited"><a id="once" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>once</span><a href="#once" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited">
+<li class="tsd-signature tsd-anchor-link" id="once.once-1"><span class="tsd-kind-call-signature">once</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">event</span>, <span class="tsd-kind-parameter">listener</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a><a href="#once.once-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<section class="tsd-panel">
+<h4>Type Parameters</h4>
+<ul class="tsd-type-parameter-list">
+<li>
+<h4><span class="tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol"> extends </span><span class="tsd-signature-symbol">keyof </span><a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a></h4></li></ul></section>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">event</span>: <span class="tsd-signature-type tsd-kind-type-parameter">K</span></h5></li>
+<li>
+<h5><span class="tsd-kind-parameter">listener</span>: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span></h5>
+<ul class="tsd-parameters">
+<li class="tsd-parameter-signature">
+<ul class="tsd-signatures">
+<li class="tsd-signature"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span>: <a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">]</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></li></ul></li></ul></div>
+<h4 class="tsd-returns-title">Returns <a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a></h4><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#once">once</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/types/TypedEmitter.ts#L12">lib/types/TypedEmitter.ts:12</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited"><a id="prependListener" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>prepend<wbr/>Listener</span><a href="#prependListener" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited">
+<li class="tsd-signature tsd-anchor-link" id="prependListener.prependListener-1"><span class="tsd-kind-call-signature">prepend<wbr/>Listener</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">event</span>, <span class="tsd-kind-parameter">listener</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a><a href="#prependListener.prependListener-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<section class="tsd-panel">
+<h4>Type Parameters</h4>
+<ul class="tsd-type-parameter-list">
+<li>
+<h4><span class="tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol"> extends </span><span class="tsd-signature-symbol">keyof </span><a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a></h4></li></ul></section>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">event</span>: <span class="tsd-signature-type tsd-kind-type-parameter">K</span></h5></li>
+<li>
+<h5><span class="tsd-kind-parameter">listener</span>: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span></h5>
+<ul class="tsd-parameters">
+<li class="tsd-parameter-signature">
+<ul class="tsd-signatures">
+<li class="tsd-signature"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span>: <a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">]</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></li></ul></li></ul></div>
+<h4 class="tsd-returns-title">Returns <a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a></h4><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#prependListener">prependListener</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/types/TypedEmitter.ts#L13">lib/types/TypedEmitter.ts:13</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited"><a id="prependOnceListener" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>prepend<wbr/>Once<wbr/>Listener</span><a href="#prependOnceListener" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited">
+<li class="tsd-signature tsd-anchor-link" id="prependOnceListener.prependOnceListener-1"><span class="tsd-kind-call-signature">prepend<wbr/>Once<wbr/>Listener</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">event</span>, <span class="tsd-kind-parameter">listener</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a><a href="#prependOnceListener.prependOnceListener-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<section class="tsd-panel">
+<h4>Type Parameters</h4>
+<ul class="tsd-type-parameter-list">
+<li>
+<h4><span class="tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol"> extends </span><span class="tsd-signature-symbol">keyof </span><a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a></h4></li></ul></section>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">event</span>: <span class="tsd-signature-type tsd-kind-type-parameter">K</span></h5></li>
+<li>
+<h5><span class="tsd-kind-parameter">listener</span>: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span></h5>
+<ul class="tsd-parameters">
+<li class="tsd-parameter-signature">
+<ul class="tsd-signatures">
+<li class="tsd-signature"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span>: <a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">]</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></li></ul></li></ul></div>
+<h4 class="tsd-returns-title">Returns <a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a></h4><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#prependOnceListener">prependOnceListener</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/types/TypedEmitter.ts#L14">lib/types/TypedEmitter.ts:14</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited"><a id="rawListeners" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>raw<wbr/>Listeners</span><a href="#rawListeners" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited">
+<li class="tsd-signature tsd-anchor-link" id="rawListeners.rawListeners-1"><span class="tsd-kind-call-signature">raw<wbr/>Listeners</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">eventName</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">Function</span><span class="tsd-signature-symbol">[]</span><a href="#rawListeners.rawListeners-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">eventName</span>: <span class="tsd-signature-symbol">keyof </span><a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Function</span><span class="tsd-signature-symbol">[]</span></h4><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#rawListeners">rawListeners</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/types/TypedEmitter.ts#L15">lib/types/TypedEmitter.ts:15</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited"><a id="removeAllListeners" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>remove<wbr/>All<wbr/>Listeners</span><a href="#removeAllListeners" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited">
+<li class="tsd-signature tsd-anchor-link" id="removeAllListeners.removeAllListeners-1"><span class="tsd-kind-call-signature">remove<wbr/>All<wbr/>Listeners</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">event</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a><a href="#removeAllListeners.removeAllListeners-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">event</span>: <span class="tsd-signature-symbol">keyof </span><a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a></h4><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#removeAllListeners">removeAllListeners</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/types/TypedEmitter.ts#L16">lib/types/TypedEmitter.ts:16</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited"><a id="removeListener" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>remove<wbr/>Listener</span><a href="#removeListener" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited">
+<li class="tsd-signature tsd-anchor-link" id="removeListener.removeListener-1"><span class="tsd-kind-call-signature">remove<wbr/>Listener</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">event</span>, <span class="tsd-kind-parameter">listener</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a><a href="#removeListener.removeListener-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<section class="tsd-panel">
+<h4>Type Parameters</h4>
+<ul class="tsd-type-parameter-list">
+<li>
+<h4><span class="tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol"> extends </span><span class="tsd-signature-symbol">keyof </span><a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a></h4></li></ul></section>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">event</span>: <span class="tsd-signature-type tsd-kind-type-parameter">K</span></h5></li>
+<li>
+<h5><span class="tsd-kind-parameter">listener</span>: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span></h5>
+<ul class="tsd-parameters">
+<li class="tsd-parameter-signature">
+<ul class="tsd-signatures">
+<li class="tsd-signature"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span>: <a href="../interfaces/Events.WebsocketEvents.html" class="tsd-signature-type tsd-kind-interface">WebsocketEvents</a><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type tsd-kind-type-parameter">K</span><span class="tsd-signature-symbol">]</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></li></ul></li></ul></div>
+<h4 class="tsd-returns-title">Returns <a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a></h4><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#removeListener">removeListener</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/types/TypedEmitter.ts#L17">lib/types/TypedEmitter.ts:17</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member"><a id="reset" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>reset</span><a href="#reset" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="reset.reset-1"><span class="tsd-kind-call-signature">reset</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#reset.reset-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/7749ce9/lib/gateway/WSManager.ts#L374">lib/gateway/WSManager.ts:374</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="setMaxListeners" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>set<wbr/>Max<wbr/>Listeners</span><a href="#setMaxListeners" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited tsd-is-external">
+<li class="tsd-signature tsd-anchor-link" id="setMaxListeners.setMaxListeners-1"><span class="tsd-kind-call-signature">set<wbr/>Max<wbr/>Listeners</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">n</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a><a href="#setMaxListeners.setMaxListeners-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>By default <code>EventEmitter</code>s will print a warning if more than <code>10</code> listeners are
+added for a particular event. This is a useful default that helps finding
+memory leaks. The <code>emitter.setMaxListeners()</code> method allows the limit to be
+modified for this specific <code>EventEmitter</code> instance. The value can be set to<code>Infinity</code> (or <code>0</code>) to indicate an unlimited number of listeners.</p>
+<p>Returns a reference to the <code>EventEmitter</code>, so that calls can be chained.</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">n</span>: <span class="tsd-signature-type">number</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <a href="WSManager.WSManager.html" class="tsd-signature-type tsd-kind-class">WSManager</a></h4>
+<div class="tsd-comment tsd-typography">
+<h4>Since</h4><p>v0.3.5</p>
+</div><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#setMaxListeners">setMaxListeners</a></p>
+<ul>
+<li>Defined in node_modules/@types/node/events.d.ts:520</li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="getEventListeners" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <span>get<wbr/>Event<wbr/>Listeners</span><a href="#getEventListeners" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited tsd-is-external">
+<li class="tsd-signature tsd-anchor-link" id="getEventListeners.getEventListeners-1"><span class="tsd-kind-call-signature">get<wbr/>Event<wbr/>Listeners</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">emitter</span>, <span class="tsd-kind-parameter">name</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">Function</span><span class="tsd-signature-symbol">[]</span><a href="#getEventListeners.getEventListeners-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Returns a copy of the array of listeners for the event named <code>eventName</code>.</p>
+<p>For <code>EventEmitter</code>s this behaves exactly the same as calling <code>.listeners</code> on
+the emitter.</p>
+<p>For <code>EventTarget</code>s this is the only way to get the event listeners for the
+event target. This is useful for debugging and diagnostic purposes.</p>
+<pre><code class="language-js"><span class="hl-0">const</span><span class="hl-1"> { </span><span class="hl-2">getEventListeners</span><span class="hl-1">, </span><span class="hl-2">EventEmitter</span><span class="hl-1"> } = </span><span class="hl-3">require</span><span class="hl-1">(</span><span class="hl-4">&#39;events&#39;</span><span class="hl-1">);</span><br/><br/><span class="hl-1">{</span><br/><span class="hl-1">  </span><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">ee</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-3">EventEmitter</span><span class="hl-1">();</span><br/><span class="hl-1">  </span><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-3">listener</span><span class="hl-1"> = () </span><span class="hl-0">=&gt;</span><span class="hl-1"> </span><span class="hl-5">console</span><span class="hl-1">.</span><span class="hl-3">log</span><span class="hl-1">(</span><span class="hl-4">&#39;Events are fun&#39;</span><span class="hl-1">);</span><br/><span class="hl-1">  </span><span class="hl-5">ee</span><span class="hl-1">.</span><span class="hl-3">on</span><span class="hl-1">(</span><span class="hl-4">&#39;foo&#39;</span><span class="hl-1">, </span><span class="hl-5">listener</span><span class="hl-1">);</span><br/><span class="hl-1">  </span><span class="hl-3">getEventListeners</span><span class="hl-1">(</span><span class="hl-5">ee</span><span class="hl-1">, </span><span class="hl-4">&#39;foo&#39;</span><span class="hl-1">); </span><span class="hl-7">// [listener]</span><br/><span class="hl-1">}</span><br/><span class="hl-1">{</span><br/><span class="hl-1">  </span><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">et</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-3">EventTarget</span><span class="hl-1">();</span><br/><span class="hl-1">  </span><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-3">listener</span><span class="hl-1"> = () </span><span class="hl-0">=&gt;</span><span class="hl-1"> </span><span class="hl-5">console</span><span class="hl-1">.</span><span class="hl-3">log</span><span class="hl-1">(</span><span class="hl-4">&#39;Events are fun&#39;</span><span class="hl-1">);</span><br/><span class="hl-1">  </span><span class="hl-5">et</span><span class="hl-1">.</span><span class="hl-3">addEventListener</span><span class="hl-1">(</span><span class="hl-4">&#39;foo&#39;</span><span class="hl-1">, </span><span class="hl-5">listener</span><span class="hl-1">);</span><br/><span class="hl-1">  </span><span class="hl-3">getEventListeners</span><span class="hl-1">(</span><span class="hl-5">et</span><span class="hl-1">, </span><span class="hl-4">&#39;foo&#39;</span><span class="hl-1">); </span><span class="hl-7">// [listener]</span><br/><span class="hl-1">}</span>
+</code><button>Copy</button></pre>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">emitter</span>: <span class="tsd-signature-type ">EventEmitter</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type ">_DOMEventTarget</span></h5></li>
+<li>
+<h5><span class="tsd-kind-parameter">name</span>: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Function</span><span class="tsd-signature-symbol">[]</span></h4>
+<div class="tsd-comment tsd-typography">
+<h4>Since</h4><p>v15.2.0, v14.17.0</p>
+</div><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#getEventListeners">getEventListeners</a></p>
+<ul>
+<li>Defined in node_modules/@types/node/events.d.ts:299</li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="listenerCount-2" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <span>listener<wbr/>Count</span><a href="#listenerCount-2" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited tsd-is-external">
+<li class="tsd-signature tsd-anchor-link" id="listenerCount-2.listenerCount-3"><span class="tsd-kind-call-signature">listener<wbr/>Count</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">emitter</span>, <span class="tsd-kind-parameter">eventName</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><a href="#listenerCount-2.listenerCount-3" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>A class method that returns the number of listeners for the given <code>eventName</code>registered on the given <code>emitter</code>.</p>
+<pre><code class="language-js"><span class="hl-0">const</span><span class="hl-1"> { </span><span class="hl-2">EventEmitter</span><span class="hl-1">, </span><span class="hl-2">listenerCount</span><span class="hl-1"> } = </span><span class="hl-3">require</span><span class="hl-1">(</span><span class="hl-4">&#39;events&#39;</span><span class="hl-1">);</span><br/><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">myEmitter</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-3">EventEmitter</span><span class="hl-1">();</span><br/><span class="hl-5">myEmitter</span><span class="hl-1">.</span><span class="hl-3">on</span><span class="hl-1">(</span><span class="hl-4">&#39;event&#39;</span><span class="hl-1">, () </span><span class="hl-0">=&gt;</span><span class="hl-1"> {});</span><br/><span class="hl-5">myEmitter</span><span class="hl-1">.</span><span class="hl-3">on</span><span class="hl-1">(</span><span class="hl-4">&#39;event&#39;</span><span class="hl-1">, () </span><span class="hl-0">=&gt;</span><span class="hl-1"> {});</span><br/><span class="hl-5">console</span><span class="hl-1">.</span><span class="hl-3">log</span><span class="hl-1">(</span><span class="hl-3">listenerCount</span><span class="hl-1">(</span><span class="hl-5">myEmitter</span><span class="hl-1">, </span><span class="hl-4">&#39;event&#39;</span><span class="hl-1">));</span><br/><span class="hl-7">// Prints: 2</span>
+</code><button>Copy</button></pre>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">emitter</span>: <span class="tsd-signature-type ">EventEmitter</span></h5>
+<div class="tsd-comment tsd-typography"><p>The emitter to query</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li>
+<li>
+<h5><span class="tsd-kind-parameter">eventName</span>: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span></h5>
+<div class="tsd-comment tsd-typography"><p>The event name</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+<div class="tsd-comment tsd-typography">
+<h4>Since</h4><p>v0.9.12</p>
+
+<h4>Deprecated</h4><p>Since v3.2.0 - Use <code>listenerCount</code> instead.</p>
+</div><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#listenerCount-2">listenerCount</a></p>
+<ul>
+<li>Defined in node_modules/@types/node/events.d.ts:271</li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="on-2" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <span>on</span><a href="#on-2" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited tsd-is-external">
+<li class="tsd-signature tsd-anchor-link" id="on-2.on-3"><span class="tsd-kind-call-signature">on</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">emitter</span>, <span class="tsd-kind-parameter">eventName</span>, <span class="tsd-kind-parameter">options</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">AsyncIterableIterator</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><a href="#on-2.on-3" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><pre><code class="language-js"><span class="hl-0">const</span><span class="hl-1"> { </span><span class="hl-2">on</span><span class="hl-1">, </span><span class="hl-2">EventEmitter</span><span class="hl-1"> } = </span><span class="hl-3">require</span><span class="hl-1">(</span><span class="hl-4">&#39;events&#39;</span><span class="hl-1">);</span><br/><br/><span class="hl-1">(</span><span class="hl-0">async</span><span class="hl-1"> () </span><span class="hl-0">=&gt;</span><span class="hl-1"> {</span><br/><span class="hl-1">  </span><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">ee</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-3">EventEmitter</span><span class="hl-1">();</span><br/><br/><span class="hl-1">  </span><span class="hl-7">// Emit later on</span><br/><span class="hl-1">  </span><span class="hl-5">process</span><span class="hl-1">.</span><span class="hl-3">nextTick</span><span class="hl-1">(() </span><span class="hl-0">=&gt;</span><span class="hl-1"> {</span><br/><span class="hl-1">    </span><span class="hl-5">ee</span><span class="hl-1">.</span><span class="hl-3">emit</span><span class="hl-1">(</span><span class="hl-4">&#39;foo&#39;</span><span class="hl-1">, </span><span class="hl-4">&#39;bar&#39;</span><span class="hl-1">);</span><br/><span class="hl-1">    </span><span class="hl-5">ee</span><span class="hl-1">.</span><span class="hl-3">emit</span><span class="hl-1">(</span><span class="hl-4">&#39;foo&#39;</span><span class="hl-1">, </span><span class="hl-8">42</span><span class="hl-1">);</span><br/><span class="hl-1">  });</span><br/><br/><span class="hl-1">  </span><span class="hl-9">for</span><span class="hl-1"> </span><span class="hl-9">await</span><span class="hl-1"> (</span><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">event</span><span class="hl-1"> </span><span class="hl-0">of</span><span class="hl-1"> </span><span class="hl-3">on</span><span class="hl-1">(</span><span class="hl-5">ee</span><span class="hl-1">, </span><span class="hl-4">&#39;foo&#39;</span><span class="hl-1">)) {</span><br/><span class="hl-1">    </span><span class="hl-7">// The execution of this inner block is synchronous and it</span><br/><span class="hl-1">    </span><span class="hl-7">// processes one event at a time (even with await). Do not use</span><br/><span class="hl-1">    </span><span class="hl-7">// if concurrent execution is required.</span><br/><span class="hl-1">    </span><span class="hl-5">console</span><span class="hl-1">.</span><span class="hl-3">log</span><span class="hl-1">(</span><span class="hl-5">event</span><span class="hl-1">); </span><span class="hl-7">// prints [&#39;bar&#39;] [42]</span><br/><span class="hl-1">  }</span><br/><span class="hl-1">  </span><span class="hl-7">// Unreachable here</span><br/><span class="hl-1">})();</span>
+</code><button>Copy</button></pre>
+<p>Returns an <code>AsyncIterator</code> that iterates <code>eventName</code> events. It will throw
+if the <code>EventEmitter</code> emits <code>&#39;error&#39;</code>. It removes all listeners when
+exiting the loop. The <code>value</code> returned by each iteration is an array
+composed of the emitted event arguments.</p>
+<p>An <code>AbortSignal</code> can be used to cancel waiting on events:</p>
+<pre><code class="language-js"><span class="hl-0">const</span><span class="hl-1"> { </span><span class="hl-2">on</span><span class="hl-1">, </span><span class="hl-2">EventEmitter</span><span class="hl-1"> } = </span><span class="hl-3">require</span><span class="hl-1">(</span><span class="hl-4">&#39;events&#39;</span><span class="hl-1">);</span><br/><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">ac</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-3">AbortController</span><span class="hl-1">();</span><br/><br/><span class="hl-1">(</span><span class="hl-0">async</span><span class="hl-1"> () </span><span class="hl-0">=&gt;</span><span class="hl-1"> {</span><br/><span class="hl-1">  </span><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">ee</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-3">EventEmitter</span><span class="hl-1">();</span><br/><br/><span class="hl-1">  </span><span class="hl-7">// Emit later on</span><br/><span class="hl-1">  </span><span class="hl-5">process</span><span class="hl-1">.</span><span class="hl-3">nextTick</span><span class="hl-1">(() </span><span class="hl-0">=&gt;</span><span class="hl-1"> {</span><br/><span class="hl-1">    </span><span class="hl-5">ee</span><span class="hl-1">.</span><span class="hl-3">emit</span><span class="hl-1">(</span><span class="hl-4">&#39;foo&#39;</span><span class="hl-1">, </span><span class="hl-4">&#39;bar&#39;</span><span class="hl-1">);</span><br/><span class="hl-1">    </span><span class="hl-5">ee</span><span class="hl-1">.</span><span class="hl-3">emit</span><span class="hl-1">(</span><span class="hl-4">&#39;foo&#39;</span><span class="hl-1">, </span><span class="hl-8">42</span><span class="hl-1">);</span><br/><span class="hl-1">  });</span><br/><br/><span class="hl-1">  </span><span class="hl-9">for</span><span class="hl-1"> </span><span class="hl-9">await</span><span class="hl-1"> (</span><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">event</span><span class="hl-1"> </span><span class="hl-0">of</span><span class="hl-1"> </span><span class="hl-3">on</span><span class="hl-1">(</span><span class="hl-5">ee</span><span class="hl-1">, </span><span class="hl-4">&#39;foo&#39;</span><span class="hl-1">, { </span><span class="hl-5">signal:</span><span class="hl-1"> </span><span class="hl-5">ac</span><span class="hl-1">.</span><span class="hl-5">signal</span><span class="hl-1"> })) {</span><br/><span class="hl-1">    </span><span class="hl-7">// The execution of this inner block is synchronous and it</span><br/><span class="hl-1">    </span><span class="hl-7">// processes one event at a time (even with await). Do not use</span><br/><span class="hl-1">    </span><span class="hl-7">// if concurrent execution is required.</span><br/><span class="hl-1">    </span><span class="hl-5">console</span><span class="hl-1">.</span><span class="hl-3">log</span><span class="hl-1">(</span><span class="hl-5">event</span><span class="hl-1">); </span><span class="hl-7">// prints [&#39;bar&#39;] [42]</span><br/><span class="hl-1">  }</span><br/><span class="hl-1">  </span><span class="hl-7">// Unreachable here</span><br/><span class="hl-1">})();</span><br/><br/><span class="hl-5">process</span><span class="hl-1">.</span><span class="hl-3">nextTick</span><span class="hl-1">(() </span><span class="hl-0">=&gt;</span><span class="hl-1"> </span><span class="hl-5">ac</span><span class="hl-1">.</span><span class="hl-3">abort</span><span class="hl-1">());</span>
+</code><button>Copy</button></pre>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">emitter</span>: <span class="tsd-signature-type ">EventEmitter</span></h5></li>
+<li>
+<h5><span class="tsd-kind-parameter">eventName</span>: <span class="tsd-signature-type">string</span></h5>
+<div class="tsd-comment tsd-typography"><p>The name of the event being listened for</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li>
+<li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">options</span>: <span class="tsd-signature-type ">StaticEventEmitterOptions</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">AsyncIterableIterator</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4><p>that iterates <code>eventName</code> events emitted by the <code>emitter</code></p>
+
+<div class="tsd-comment tsd-typography">
+<h4>Since</h4><p>v13.6.0, v12.16.0</p>
+</div><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#on-2">on</a></p>
+<ul>
+<li>Defined in node_modules/@types/node/events.d.ts:254</li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="once-2" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <span>once</span><a href="#once-2" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited tsd-is-external">
+<li class="tsd-signature tsd-anchor-link" id="once-2.once-3"><span class="tsd-kind-call-signature">once</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">emitter</span>, <span class="tsd-kind-parameter">eventName</span>, <span class="tsd-kind-parameter">options</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span><a href="#once-2.once-3" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Creates a <code>Promise</code> that is fulfilled when the <code>EventEmitter</code> emits the given
+event or that is rejected if the <code>EventEmitter</code> emits <code>&#39;error&#39;</code> while waiting.
+The <code>Promise</code> will resolve with an array of all the arguments emitted to the
+given event.</p>
+<p>This method is intentionally generic and works with the web platform <a href="https://dom.spec.whatwg.org/#interface-eventtarget">EventTarget</a> interface, which has no special<code>&#39;error&#39;</code> event
+semantics and does not listen to the <code>&#39;error&#39;</code> event.</p>
+<pre><code class="language-js"><span class="hl-0">const</span><span class="hl-1"> { </span><span class="hl-2">once</span><span class="hl-1">, </span><span class="hl-2">EventEmitter</span><span class="hl-1"> } = </span><span class="hl-3">require</span><span class="hl-1">(</span><span class="hl-4">&#39;events&#39;</span><span class="hl-1">);</span><br/><br/><span class="hl-0">async</span><span class="hl-1"> </span><span class="hl-0">function</span><span class="hl-1"> </span><span class="hl-3">run</span><span class="hl-1">() {</span><br/><span class="hl-1">  </span><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">ee</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-3">EventEmitter</span><span class="hl-1">();</span><br/><br/><span class="hl-1">  </span><span class="hl-5">process</span><span class="hl-1">.</span><span class="hl-3">nextTick</span><span class="hl-1">(() </span><span class="hl-0">=&gt;</span><span class="hl-1"> {</span><br/><span class="hl-1">    </span><span class="hl-5">ee</span><span class="hl-1">.</span><span class="hl-3">emit</span><span class="hl-1">(</span><span class="hl-4">&#39;myevent&#39;</span><span class="hl-1">, </span><span class="hl-8">42</span><span class="hl-1">);</span><br/><span class="hl-1">  });</span><br/><br/><span class="hl-1">  </span><span class="hl-0">const</span><span class="hl-1"> [</span><span class="hl-2">value</span><span class="hl-1">] = </span><span class="hl-9">await</span><span class="hl-1"> </span><span class="hl-3">once</span><span class="hl-1">(</span><span class="hl-5">ee</span><span class="hl-1">, </span><span class="hl-4">&#39;myevent&#39;</span><span class="hl-1">);</span><br/><span class="hl-1">  </span><span class="hl-5">console</span><span class="hl-1">.</span><span class="hl-3">log</span><span class="hl-1">(</span><span class="hl-5">value</span><span class="hl-1">);</span><br/><br/><span class="hl-1">  </span><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">err</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-3">Error</span><span class="hl-1">(</span><span class="hl-4">&#39;kaboom&#39;</span><span class="hl-1">);</span><br/><span class="hl-1">  </span><span class="hl-5">process</span><span class="hl-1">.</span><span class="hl-3">nextTick</span><span class="hl-1">(() </span><span class="hl-0">=&gt;</span><span class="hl-1"> {</span><br/><span class="hl-1">    </span><span class="hl-5">ee</span><span class="hl-1">.</span><span class="hl-3">emit</span><span class="hl-1">(</span><span class="hl-4">&#39;error&#39;</span><span class="hl-1">, </span><span class="hl-5">err</span><span class="hl-1">);</span><br/><span class="hl-1">  });</span><br/><br/><span class="hl-1">  </span><span class="hl-9">try</span><span class="hl-1"> {</span><br/><span class="hl-1">    </span><span class="hl-9">await</span><span class="hl-1"> </span><span class="hl-3">once</span><span class="hl-1">(</span><span class="hl-5">ee</span><span class="hl-1">, </span><span class="hl-4">&#39;myevent&#39;</span><span class="hl-1">);</span><br/><span class="hl-1">  } </span><span class="hl-9">catch</span><span class="hl-1"> (</span><span class="hl-5">err</span><span class="hl-1">) {</span><br/><span class="hl-1">    </span><span class="hl-5">console</span><span class="hl-1">.</span><span class="hl-3">log</span><span class="hl-1">(</span><span class="hl-4">&#39;error happened&#39;</span><span class="hl-1">, </span><span class="hl-5">err</span><span class="hl-1">);</span><br/><span class="hl-1">  }</span><br/><span class="hl-1">}</span><br/><br/><span class="hl-3">run</span><span class="hl-1">();</span>
+</code><button>Copy</button></pre>
+<p>The special handling of the <code>&#39;error&#39;</code> event is only used when <code>events.once()</code>is used to wait for another event. If <code>events.once()</code> is used to wait for the
+&#39;<code>error&#39;</code> event itself, then it is treated as any other kind of event without
+special handling:</p>
+<pre><code class="language-js"><span class="hl-0">const</span><span class="hl-1"> { </span><span class="hl-2">EventEmitter</span><span class="hl-1">, </span><span class="hl-2">once</span><span class="hl-1"> } = </span><span class="hl-3">require</span><span class="hl-1">(</span><span class="hl-4">&#39;events&#39;</span><span class="hl-1">);</span><br/><br/><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">ee</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-3">EventEmitter</span><span class="hl-1">();</span><br/><br/><span class="hl-3">once</span><span class="hl-1">(</span><span class="hl-5">ee</span><span class="hl-1">, </span><span class="hl-4">&#39;error&#39;</span><span class="hl-1">)</span><br/><span class="hl-1">  .</span><span class="hl-3">then</span><span class="hl-1">(([</span><span class="hl-5">err</span><span class="hl-1">]) </span><span class="hl-0">=&gt;</span><span class="hl-1"> </span><span class="hl-5">console</span><span class="hl-1">.</span><span class="hl-3">log</span><span class="hl-1">(</span><span class="hl-4">&#39;ok&#39;</span><span class="hl-1">, </span><span class="hl-5">err</span><span class="hl-1">.</span><span class="hl-5">message</span><span class="hl-1">))</span><br/><span class="hl-1">  .</span><span class="hl-3">catch</span><span class="hl-1">((</span><span class="hl-5">err</span><span class="hl-1">) </span><span class="hl-0">=&gt;</span><span class="hl-1"> </span><span class="hl-5">console</span><span class="hl-1">.</span><span class="hl-3">log</span><span class="hl-1">(</span><span class="hl-4">&#39;error&#39;</span><span class="hl-1">, </span><span class="hl-5">err</span><span class="hl-1">.</span><span class="hl-5">message</span><span class="hl-1">));</span><br/><br/><span class="hl-5">ee</span><span class="hl-1">.</span><span class="hl-3">emit</span><span class="hl-1">(</span><span class="hl-4">&#39;error&#39;</span><span class="hl-1">, </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-3">Error</span><span class="hl-1">(</span><span class="hl-4">&#39;boom&#39;</span><span class="hl-1">));</span><br/><br/><span class="hl-7">// Prints: ok boom</span>
+</code><button>Copy</button></pre>
+<p>An <code>AbortSignal</code> can be used to cancel waiting for the event:</p>
+<pre><code class="language-js"><span class="hl-0">const</span><span class="hl-1"> { </span><span class="hl-2">EventEmitter</span><span class="hl-1">, </span><span class="hl-2">once</span><span class="hl-1"> } = </span><span class="hl-3">require</span><span class="hl-1">(</span><span class="hl-4">&#39;events&#39;</span><span class="hl-1">);</span><br/><br/><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">ee</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-3">EventEmitter</span><span class="hl-1">();</span><br/><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">ac</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-3">AbortController</span><span class="hl-1">();</span><br/><br/><span class="hl-0">async</span><span class="hl-1"> </span><span class="hl-0">function</span><span class="hl-1"> </span><span class="hl-3">foo</span><span class="hl-1">(</span><span class="hl-5">emitter</span><span class="hl-1">, </span><span class="hl-5">event</span><span class="hl-1">, </span><span class="hl-5">signal</span><span class="hl-1">) {</span><br/><span class="hl-1">  </span><span class="hl-9">try</span><span class="hl-1"> {</span><br/><span class="hl-1">    </span><span class="hl-9">await</span><span class="hl-1"> </span><span class="hl-3">once</span><span class="hl-1">(</span><span class="hl-5">emitter</span><span class="hl-1">, </span><span class="hl-5">event</span><span class="hl-1">, { </span><span class="hl-5">signal</span><span class="hl-1"> });</span><br/><span class="hl-1">    </span><span class="hl-5">console</span><span class="hl-1">.</span><span class="hl-3">log</span><span class="hl-1">(</span><span class="hl-4">&#39;event emitted!&#39;</span><span class="hl-1">);</span><br/><span class="hl-1">  } </span><span class="hl-9">catch</span><span class="hl-1"> (</span><span class="hl-5">error</span><span class="hl-1">) {</span><br/><span class="hl-1">    </span><span class="hl-9">if</span><span class="hl-1"> (</span><span class="hl-5">error</span><span class="hl-1">.</span><span class="hl-5">name</span><span class="hl-1"> === </span><span class="hl-4">&#39;AbortError&#39;</span><span class="hl-1">) {</span><br/><span class="hl-1">      </span><span class="hl-5">console</span><span class="hl-1">.</span><span class="hl-3">error</span><span class="hl-1">(</span><span class="hl-4">&#39;Waiting for the event was canceled!&#39;</span><span class="hl-1">);</span><br/><span class="hl-1">    } </span><span class="hl-9">else</span><span class="hl-1"> {</span><br/><span class="hl-1">      </span><span class="hl-5">console</span><span class="hl-1">.</span><span class="hl-3">error</span><span class="hl-1">(</span><span class="hl-4">&#39;There was an error&#39;</span><span class="hl-1">, </span><span class="hl-5">error</span><span class="hl-1">.</span><span class="hl-5">message</span><span class="hl-1">);</span><br/><span class="hl-1">    }</span><br/><span class="hl-1">  }</span><br/><span class="hl-1">}</span><br/><br/><span class="hl-3">foo</span><span class="hl-1">(</span><span class="hl-5">ee</span><span class="hl-1">, </span><span class="hl-4">&#39;foo&#39;</span><span class="hl-1">, </span><span class="hl-5">ac</span><span class="hl-1">.</span><span class="hl-5">signal</span><span class="hl-1">);</span><br/><span class="hl-5">ac</span><span class="hl-1">.</span><span class="hl-3">abort</span><span class="hl-1">(); </span><span class="hl-7">// Abort waiting for the event</span><br/><span class="hl-5">ee</span><span class="hl-1">.</span><span class="hl-3">emit</span><span class="hl-1">(</span><span class="hl-4">&#39;foo&#39;</span><span class="hl-1">); </span><span class="hl-7">// Prints: Waiting for the event was canceled!</span>
+</code><button>Copy</button></pre>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">emitter</span>: <span class="tsd-signature-type ">_NodeEventTarget</span></h5></li>
+<li>
+<h5><span class="tsd-kind-parameter">eventName</span>: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span></h5></li>
+<li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">options</span>: <span class="tsd-signature-type ">StaticEventEmitterOptions</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+<div class="tsd-comment tsd-typography">
+<h4>Since</h4><p>v11.13.0, v10.16.0</p>
+</div><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#once-2">once</a></p>
+<ul>
+<li>Defined in node_modules/@types/node/events.d.ts:194</li></ul></aside></li>
+<li class="tsd-signature tsd-anchor-link" id="once-2.once-4"><span class="tsd-kind-call-signature">once</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">emitter</span>, <span class="tsd-kind-parameter">eventName</span>, <span class="tsd-kind-parameter">options</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span><a href="#once-2.once-4" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">emitter</span>: <span class="tsd-signature-type ">_DOMEventTarget</span></h5></li>
+<li>
+<h5><span class="tsd-kind-parameter">eventName</span>: <span class="tsd-signature-type">string</span></h5></li>
+<li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">options</span>: <span class="tsd-signature-type ">StaticEventEmitterOptions</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#once-2">once</a></p>
+<ul>
+<li>Defined in node_modules/@types/node/events.d.ts:195</li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="setMaxListeners-2" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <span>set<wbr/>Max<wbr/>Listeners</span><a href="#setMaxListeners-2" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited tsd-is-external">
+<li class="tsd-signature tsd-anchor-link" id="setMaxListeners-2.setMaxListeners-3"><span class="tsd-kind-call-signature">set<wbr/>Max<wbr/>Listeners</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">n</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">eventTargets</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#setMaxListeners-2.setMaxListeners-3" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><pre><code class="language-js"><span class="hl-0">const</span><span class="hl-1"> {</span><br/><span class="hl-1">  </span><span class="hl-2">setMaxListeners</span><span class="hl-1">,</span><br/><span class="hl-1">  </span><span class="hl-2">EventEmitter</span><br/><span class="hl-1">} = </span><span class="hl-3">require</span><span class="hl-1">(</span><span class="hl-4">&#39;events&#39;</span><span class="hl-1">);</span><br/><br/><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">target</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-3">EventTarget</span><span class="hl-1">();</span><br/><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">emitter</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-3">EventEmitter</span><span class="hl-1">();</span><br/><br/><span class="hl-3">setMaxListeners</span><span class="hl-1">(</span><span class="hl-8">5</span><span class="hl-1">, </span><span class="hl-5">target</span><span class="hl-1">, </span><span class="hl-5">emitter</span><span class="hl-1">);</span>
+</code><button>Copy</button></pre>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">n</span>: <span class="tsd-signature-type">number</span></h5>
+<div class="tsd-comment tsd-typography"><p>A non-negative number. The maximum number of listeners per <code>EventTarget</code> event.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li>
+<li>
+<h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">eventTargets</span>: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type ">EventEmitter</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type ">_DOMEventTarget</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+<div class="tsd-comment tsd-typography">
+<h4>Since</h4><p>v15.4.0</p>
+</div><aside class="tsd-sources">
+<p>Inherited from <a href="TypedEmitter.TypedEmitter.html">TypedEmitter</a>.<a href="TypedEmitter.TypedEmitter.html#setMaxListeners-2">setMaxListeners</a></p>
+<ul>
+<li>Defined in node_modules/@types/node/events.d.ts:317</li></ul></aside></li></ul></section></section></div>
+<div class="col-sidebar">
+<div class="page-menu">
+<div class="tsd-navigation settings">
+<details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
+<h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4.93896 8.531L12 15.591L19.061 8.531L16.939 6.409L12 11.349L7.06098 6.409L4.93896 8.531Z" fill="var(--color-text)" id="icon-chevronDown"></path></svg>Settings</h3></summary>
+<div class="tsd-accordion-details">
+<div class="tsd-filter-visibility">
+<h4 class="uppercase">Member Visibility</h4><form>
+<ul id="tsd-filter-options">
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Inherited</span></label></li>
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-external" name="external"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>External</span></label></li></ul></form></div>
+<div class="tsd-theme-toggle">
+<h4 class="uppercase">Theme</h4><select id="tsd-theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div>
+<details open class="tsd-index-accordion tsd-page-navigation"><summary class="tsd-accordion-summary">
+<h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="#icon-chevronDown"></use></svg>On This Page</h3></summary>
+<div class="tsd-accordion-details">
+<ul>
+<li><a href="#constructor" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-512"></use></svg><span>constructor</span></a></li>
+<li><a href="#alive" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>alive</span></a></li>
+<li><a href="#apiversion" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>apiversion</span></a></li>
+<li><a href="#client" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>client</span></a></li>
+<li><a href="#compression" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>compression</span></a></li>
+<li><a href="#connected" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>connected</span></a></li>
+<li><a href="#connectionTimeout" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>connection<wbr/>Timeout</span></a></li>
+<li><a href="#currReconnectAttempt" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>curr<wbr/>Reconnect<wbr/>Attempt</span></a></li>
+<li><a href="#firstwsMessage" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>firstws<wbr/>Message</span></a></li>
+<li><a href="#heartbeatRequested" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>heartbeat<wbr/>Requested</span></a></li>
+<li><a href="#lastHeartbeatAck" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>last<wbr/>Heartbeat<wbr/>Ack</span></a></li>
+<li><a href="#lastHeartbeatReceived" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>last<wbr/>Heartbeat<wbr/>Received</span></a></li>
+<li><a href="#lastHeartbeatSent" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>last<wbr/>Heartbeat<wbr/>Sent</span></a></li>
+<li><a href="#lastMessageID" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>last<wbr/>MessageID</span></a></li>
+<li><a href="#latency" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>latency</span></a></li>
+<li><a href="#params" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>params</span></a></li>
+<li><a href="#proxyURL" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>proxyURL</span></a></li>
+<li><a href="#reconnect" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>reconnect</span></a></li>
+<li><a href="#reconnectAttemptLimit" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>reconnect<wbr/>Attempt<wbr/>Limit</span></a></li>
+<li><a href="#reconnectInterval" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>reconnect<wbr/>Interval</span></a></li>
+<li><a href="#replayMissedEvents" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>replay<wbr/>Missed<wbr/>Events</span></a></li>
+<li><a href="#token" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>token</span></a></li>
+<li><a href="#ws" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>ws</span></a></li>
+<li><a href="#captureRejectionSymbol" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>capture<wbr/>Rejection<wbr/>Symbol</span></a></li>
+<li><a href="#captureRejections" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>capture<wbr/>Rejections</span></a></li>
+<li><a href="#defaultMaxListeners" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>default<wbr/>Max<wbr/>Listeners</span></a></li>
+<li><a href="#errorMonitor" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>error<wbr/>Monitor</span></a></li>
+<li><a href="#replayEventsCondition" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-262144"></use></svg><span>replay<wbr/>Events<wbr/>Condition</span></a></li>
+<li><a href="#vAPI" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-262144"></use></svg><span>vAPI</span></a></li>
+<li><a href="#_debug" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>_debug</span></a></li>
+<li><a href="#addListener" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>add<wbr/>Listener</span></a></li>
+<li><a href="#connect" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>connect</span></a></li>
+<li><a href="#disconnect" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>disconnect</span></a></li>
+<li><a href="#emit" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>emit</span></a></li>
+<li><a href="#eventNames" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>event<wbr/>Names</span></a></li>
+<li><a href="#getMaxListeners" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Max<wbr/>Listeners</span></a></li>
+<li><a href="#hardReset" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>hard<wbr/>Reset</span></a></li>
+<li><a href="#listenerCount" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>listener<wbr/>Count</span></a></li>
+<li><a href="#listeners" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>listeners</span></a></li>
+<li><a href="#off" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>off</span></a></li>
+<li><a href="#on" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>on</span></a></li>
+<li><a href="#once" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>once</span></a></li>
+<li><a href="#prependListener" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>prepend<wbr/>Listener</span></a></li>
+<li><a href="#prependOnceListener" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>prepend<wbr/>Once<wbr/>Listener</span></a></li>
+<li><a href="#rawListeners" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>raw<wbr/>Listeners</span></a></li>
+<li><a href="#removeAllListeners" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>remove<wbr/>All<wbr/>Listeners</span></a></li>
+<li><a href="#removeListener" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>remove<wbr/>Listener</span></a></li>
+<li><a href="#reset" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>reset</span></a></li>
+<li><a href="#setMaxListeners" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>set<wbr/>Max<wbr/>Listeners</span></a></li>
+<li><a href="#getEventListeners" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Event<wbr/>Listeners</span></a></li>
+<li><a href="#listenerCount-2" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>listener<wbr/>Count</span></a></li>
+<li><a href="#on-2" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>on</span></a></li>
+<li><a href="#once-2" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>once</span></a></li>
+<li><a href="#setMaxListeners-2" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>set<wbr/>Max<wbr/>Listeners</span></a></li></ul></div></details></div>
+<div class="site-menu">
+<nav class="tsd-navigation"><a href="../index.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-4"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-namespace)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6"></rect><path d="M9.33 16V7.24H10.77L13.446 14.74C13.43 14.54 13.41 14.296 13.386 14.008C13.37 13.712 13.354 13.404 13.338 13.084C13.33 12.756 13.326 12.448 13.326 12.16V7.24H14.37V16H12.93L10.266 8.5C10.282 8.692 10.298 8.936 10.314 9.232C10.33 9.52 10.342 9.828 10.35 10.156C10.366 10.476 10.374 10.784 10.374 11.08V16H9.33Z" fill="var(--color-text)"></path></g></svg><span>Touch<wbr/>Guild</span></a>
+<ul class="tsd-small-nested-navigation">
+<li><a href="../modules/Announcement.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Announcement</span></a></li>
+<li><a href="../modules/AnnouncementChannel.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Announcement<wbr/>Channel</span></a></li>
+<li><a href="../modules/AnnouncementComment.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Announcement<wbr/>Comment</span></a></li>
+<li><a href="../modules/AnnouncementHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Announcement<wbr/>Handler</span></a></li>
+<li><a href="../modules/AnnouncementReactionInfo.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Announcement<wbr/>Reaction<wbr/>Info</span></a></li>
+<li><a href="../modules/BannedMember.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Banned<wbr/>Member</span></a></li>
+<li><a href="../modules/Base.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Base</span></a></li>
+<li><a href="../modules/Bucket.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Bucket</span></a></li>
+<li><a href="../modules/CalendarChannel.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Calendar<wbr/>Channel</span></a></li>
+<li><a href="../modules/CalendarEvent.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Calendar<wbr/>Event</span></a></li>
+<li><a href="../modules/CalendarEventComment.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Calendar<wbr/>Event<wbr/>Comment</span></a></li>
+<li><a href="../modules/CalendarHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Calendar<wbr/>Handler</span></a></li>
+<li><a href="../modules/CalendarRSVP.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>CalendarRSVP</span></a></li>
+<li><a href="../modules/CalendarReactionInfo.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Calendar<wbr/>Reaction<wbr/>Info</span></a></li>
+<li><a href="../modules/Channel.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Channel</span></a></li>
+<li><a href="../modules/ChannelHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Channel<wbr/>Handler</span></a></li>
+<li><a href="../modules/Client.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Client</span></a></li>
+<li><a href="../modules/Collection.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Collection</span></a></li>
+<li><a href="../modules/Constants.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Constants</span></a></li>
+<li><a href="../modules/Doc.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Doc</span></a></li>
+<li><a href="../modules/DocChannel.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Doc<wbr/>Channel</span></a></li>
+<li><a href="../modules/DocComment.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Doc<wbr/>Comment</span></a></li>
+<li><a href="../modules/DocHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Doc<wbr/>Handler</span></a></li>
+<li><a href="../modules/DocReactionInfo.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Doc<wbr/>Reaction<wbr/>Info</span></a></li>
+<li><a href="../modules/Events.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Events</span></a></li>
+<li><a href="../modules/ForumChannel.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Forum<wbr/>Channel</span></a></li>
+<li><a href="../modules/ForumThread.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Forum<wbr/>Thread</span></a></li>
+<li><a href="../modules/ForumThreadComment.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Forum<wbr/>Thread<wbr/>Comment</span></a></li>
+<li><a href="../modules/ForumThreadHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Forum<wbr/>Thread<wbr/>Handler</span></a></li>
+<li><a href="../modules/ForumThreadReactionInfo.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Forum<wbr/>Thread<wbr/>Reaction<wbr/>Info</span></a></li>
+<li><a href="../modules/GatewayError.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Gateway<wbr/>Error</span></a></li>
+<li><a href="../modules/GatewayEventHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Gateway<wbr/>Event<wbr/>Handler</span></a></li>
+<li><a href="../modules/GatewayHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Gateway<wbr/>Handler</span></a></li>
+<li><a href="../modules/Guild.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Guild</span></a></li>
+<li><a href="../modules/GuildChannel.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Guild<wbr/>Channel</span></a></li>
+<li><a href="../modules/GuildGroup.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Guild<wbr/>Group</span></a></li>
+<li><a href="../modules/GuildHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Guild<wbr/>Handler</span></a></li>
+<li><a href="../modules/GuildRole.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Guild<wbr/>Role</span></a></li>
+<li><a href="../modules/GuildSubscription.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Guild<wbr/>Subscription</span></a></li>
+<li><a href="../modules/GuildedHTTPError.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>GuildedHTTPError</span></a></li>
+<li><a href="../modules/GuildedRESTError.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>GuildedRESTError</span></a></li>
+<li><a href="../modules/ListItem.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>List<wbr/>Item</span></a></li>
+<li><a href="../modules/ListItemHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>List<wbr/>Item<wbr/>Handler</span></a></li>
+<li><a href="../modules/Member.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Member</span></a></li>
+<li><a href="../modules/MemberInfo.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Member<wbr/>Info</span></a></li>
+<li><a href="../modules/MemberRemoveInfo.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Member<wbr/>Remove<wbr/>Info</span></a></li>
+<li><a href="../modules/MemberUpdateInfo.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Member<wbr/>Update<wbr/>Info</span></a></li>
+<li><a href="../modules/Message.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Message</span></a></li>
+<li><a href="../modules/MessageHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Message<wbr/>Handler</span></a></li>
+<li><a href="../modules/MessageReactionInfo.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Message<wbr/>Reaction<wbr/>Info</span></a></li>
+<li><a href="../modules/RESTManager.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>RESTManager</span></a></li>
+<li><a href="../modules/ReactionInfo.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Reaction<wbr/>Info</span></a></li>
+<li><a href="../modules/RequestHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Request<wbr/>Handler</span></a></li>
+<li><a href="../modules/Routes_Channels.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Routes/<wbr/>Channels</span></a></li>
+<li><a href="../modules/Routes_Guilds.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Routes/<wbr/>Guilds</span></a></li>
+<li><a href="../modules/Routes_Guilds-1.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Routes/<wbr/>Guilds</span></a></li>
+<li><a href="../modules/SequentialBucket.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Sequential<wbr/>Bucket</span></a></li>
+<li><a href="../modules/SocialLink.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Social<wbr/>Link</span></a></li>
+<li><a href="../modules/TextChannel.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Text<wbr/>Channel</span></a></li>
+<li><a href="../modules/TypedCollection.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Typed<wbr/>Collection</span></a></li>
+<li><a href="../modules/TypedEmitter.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Typed<wbr/>Emitter</span></a></li>
+<li><a href="../modules/Types.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Types</span></a></li>
+<li><a href="../modules/Types_RequestHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Types/<wbr/>Request<wbr/>Handler</span></a></li>
+<li><a href="../modules/User.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>User</span></a></li>
+<li><a href="../modules/UserClient.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>User<wbr/>Client</span></a></li>
+<li><a href="../modules/UserHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>User<wbr/>Handler</span></a></li>
+<li><a href="../modules/Util.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Util</span></a></li>
+<li>
+<details class="tsd-index-accordion" open data-key="WSManager"><summary class="tsd-accordion-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="#icon-chevronDown"></use></svg><a href="../modules/WSManager.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>WSManager</span></a></summary>
+<div class="tsd-accordion-details">
+<ul class="tsd-nested-navigation">
+<li><a href="WSManager.WSManager.html" class="current"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-128"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-class)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6"></rect><path d="M11.898 16.1201C11.098 16.1201 10.466 15.8961 10.002 15.4481C9.53803 15.0001 9.30603 14.3841 9.30603 13.6001V9.64012C9.30603 8.85612 9.53803 8.24012 10.002 7.79212C10.466 7.34412 11.098 7.12012 11.898 7.12012C12.682 7.12012 13.306 7.34812 13.77 7.80412C14.234 8.25212 14.466 8.86412 14.466 9.64012H13.386C13.386 9.14412 13.254 8.76412 12.99 8.50012C12.734 8.22812 12.37 8.09212 11.898 8.09212C11.426 8.09212 11.054 8.22412 10.782 8.48812C10.518 8.75212 10.386 9.13212 10.386 9.62812V13.6001C10.386 14.0961 10.518 14.4801 10.782 14.7521C11.054 15.0161 11.426 15.1481 11.898 15.1481C12.37 15.1481 12.734 15.0161 12.99 14.7521C13.254 14.4801 13.386 14.0961 13.386 13.6001H14.466C14.466 14.3761 14.234 14.9921 13.77 15.4481C13.306 15.8961 12.682 16.1201 11.898 16.1201Z" fill="var(--color-text)"></path></g></svg><span>WSManager</span></a></li>
+<li><a href="../interfaces/WSManager.WSManagerParams.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-256"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-interface)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6"></rect><path d="M9.51 16V15.016H11.298V8.224H9.51V7.24H14.19V8.224H12.402V15.016H14.19V16H9.51Z" fill="var(--color-text)"></path></g></svg><span>WSManager<wbr/>Params</span></a></li></ul></div></details></li>
+<li><a href="../modules/Webhook.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Webhook</span></a></li>
+<li><a href="../modules/WebhookHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Webhook<wbr/>Handler</span></a></li>
+<li><a href="../modules/index.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>index</span></a></li>
+<li><a href="../modules/rest_endpoints.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>rest/endpoints</span></a></li>
+<li><a href="../modules/types_calendarEvent.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>types/calendar<wbr/>Event</span></a></li>
+<li><a href="../modules/types_calendarEventComment.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>types/calendar<wbr/>Event<wbr/>Comment</span></a></li>
+<li><a href="../modules/types_channel.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>types/channel</span></a></li>
+<li><a href="../modules/types_client.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>types/client</span></a></li>
+<li><a href="../modules/types_doc.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>types/doc</span></a></li>
+<li><a href="../modules/types_docComment.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>types/doc<wbr/>Comment</span></a></li>
+<li><a href="../modules/types_forumThread.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>types/forum<wbr/>Thread</span></a></li>
+<li><a href="../modules/types_forumThreadComment.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>types/forum<wbr/>Thread<wbr/>Comment</span></a></li>
+<li><a href="../modules/types_gateway_raw.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>types/gateway-<wbr/>raw</span></a></li>
+<li><a href="../modules/types_guilds.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>types/guilds</span></a></li>
+<li><a href="../modules/types_json.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>types/json</span></a></li>
+<li><a href="../modules/types_listItem.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>types/list<wbr/>Item</span></a></li>
+<li><a href="../modules/types_webhook.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>types/webhook</span></a></li>
+<li><a href="../modules/types_webhooks.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>types/webhooks</span></a></li></ul></nav></div></div></div>
+<div class="overlay"></div></body></html>
