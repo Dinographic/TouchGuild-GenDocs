@@ -22,7 +22,7 @@
 <ul class="tsd-hierarchy">
 <li><span class="target">Guilds</span></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L53">lib/routes/Guilds.ts:53</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L64">lib/routes/Guilds.ts:64</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -36,11 +36,15 @@
 <h3 class="tsd-index-heading">Methods</h3>
 <div class="tsd-index-list"><a href="Routes_Guilds.Guilds.html#awardMember" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-2048"><rect fill="var(--color-icon-background)" stroke="#FF4DB8" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12"></rect><path d="M9.162 16V7.24H10.578L11.514 10.072C11.602 10.328 11.674 10.584 11.73 10.84C11.794 11.088 11.842 11.28 11.874 11.416C11.906 11.28 11.954 11.088 12.018 10.84C12.082 10.584 12.154 10.324 12.234 10.06L13.122 7.24H14.538V16H13.482V12.82C13.482 12.468 13.49 12.068 13.506 11.62C13.53 11.172 13.558 10.716 13.59 10.252C13.622 9.78 13.654 9.332 13.686 8.908C13.726 8.476 13.762 8.1 13.794 7.78L12.366 12.16H11.334L9.894 7.78C9.934 8.092 9.97 8.456 10.002 8.872C10.042 9.28 10.078 9.716 10.11 10.18C10.142 10.636 10.166 11.092 10.182 11.548C10.206 12.004 10.218 12.428 10.218 12.82V16H9.162Z" fill="var(--color-text)"></path></g></svg><span>award<wbr/>Member</span></a>
 <a href="Routes_Guilds.Guilds.html#awardRole" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>award<wbr/>Role</span></a>
+<a href="Routes_Guilds.Guilds.html#bulkAwardXP" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>bulk<wbr/>AwardXP</span></a>
+<a href="Routes_Guilds.Guilds.html#bulkSetXP" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>bulk<wbr/>SetXP</span></a>
 <a href="Routes_Guilds.Guilds.html#createBan" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>create<wbr/>Ban</span></a>
+<a href="Routes_Guilds.Guilds.html#createCategory" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>create<wbr/>Category</span></a>
 <a href="Routes_Guilds.Guilds.html#createChannel" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>create<wbr/>Channel</span></a>
 <a href="Routes_Guilds.Guilds.html#createGroup" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>create<wbr/>Group</span></a>
 <a href="Routes_Guilds.Guilds.html#createRole" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>create<wbr/>Role</span></a>
 <a href="Routes_Guilds.Guilds.html#createWebhook" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>create<wbr/>Webhook</span></a>
+<a href="Routes_Guilds.Guilds.html#deleteCategory" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>delete<wbr/>Category</span></a>
 <a href="Routes_Guilds.Guilds.html#deleteChannel" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>delete<wbr/>Channel</span></a>
 <a href="Routes_Guilds.Guilds.html#deleteGroup" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>delete<wbr/>Group</span></a>
 <a href="Routes_Guilds.Guilds.html#deleteRole" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>delete<wbr/>Role</span></a>
@@ -68,9 +72,11 @@
 <a href="Routes_Guilds.Guilds.html#memberAddRole" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>member<wbr/>Add<wbr/>Role</span></a>
 <a href="Routes_Guilds.Guilds.html#memberRemoveGroup" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>member<wbr/>Remove<wbr/>Group</span></a>
 <a href="Routes_Guilds.Guilds.html#memberRemoveRole" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>member<wbr/>Remove<wbr/>Role</span></a>
+<a href="Routes_Guilds.Guilds.html#readCategory" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>read<wbr/>Category</span></a>
 <a href="Routes_Guilds.Guilds.html#removeBan" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>remove<wbr/>Ban</span></a>
 <a href="Routes_Guilds.Guilds.html#removeMember" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>remove<wbr/>Member</span></a>
 <a href="Routes_Guilds.Guilds.html#setMemberXP" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>set<wbr/>MemberXP</span></a>
+<a href="Routes_Guilds.Guilds.html#updateCategory" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>update<wbr/>Category</span></a>
 <a href="Routes_Guilds.Guilds.html#updateRolePermission" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>update<wbr/>Role<wbr/>Permission</span></a>
 </div></section></div></details></section></section>
 <section class="tsd-panel-group tsd-member-group">
@@ -87,7 +93,7 @@
 <h5><span class="tsd-kind-parameter">manager</span>: <a href="RESTManager.RESTManager.html" class="tsd-signature-type tsd-kind-class">RESTManager</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="Routes_Guilds.Guilds.html" class="tsd-signature-type tsd-kind-class">Guilds</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L55">lib/routes/Guilds.ts:55</a></li></ul></aside></li></ul></section></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L66">lib/routes/Guilds.ts:66</a></li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Methods</h2>
 <section class="tsd-panel tsd-member"><a id="awardMember" class="tsd-anchor"></a>
@@ -118,7 +124,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L289">lib/routes/Guilds.ts:289</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L300">lib/routes/Guilds.ts:300</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="awardRole" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>award<wbr/>Role</span><a href="#awardRole" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -147,7 +153,55 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L317">lib/routes/Guilds.ts:317</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L328">lib/routes/Guilds.ts:328</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member"><a id="bulkAwardXP" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>bulk<wbr/>AwardXP</span><a href="#bulkAwardXP" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="bulkAwardXP.bulkAwardXP-1"><span class="tsd-kind-call-signature">bulk<wbr/>AwardXP</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">guildID</span>, <span class="tsd-kind-parameter">options</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/Constants.POSTBulkAwardXPResponse.html" class="tsd-signature-type tsd-kind-interface">POSTBulkAwardXPResponse</a><span class="tsd-signature-symbol">&gt;</span><a href="#bulkAwardXP.bulkAwardXP-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Bulk Award XP Members</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">guildID</span>: <span class="tsd-signature-type">string</span></h5>
+<div class="tsd-comment tsd-typography"><p>ID of the guild</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li>
+<li>
+<h5><span class="tsd-kind-parameter">options</span>: <a href="../interfaces/Constants.POSTBulkAwardXPBody.html" class="tsd-signature-type tsd-kind-interface">POSTBulkAwardXPBody</a></h5>
+<div class="tsd-comment tsd-typography"><p>Members to award XP</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/Constants.POSTBulkAwardXPResponse.html" class="tsd-signature-type tsd-kind-interface">POSTBulkAwardXPResponse</a><span class="tsd-signature-symbol">&gt;</span></h4>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L570">lib/routes/Guilds.ts:570</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member"><a id="bulkSetXP" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>bulk<wbr/>SetXP</span><a href="#bulkSetXP" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="bulkSetXP.bulkSetXP-1"><span class="tsd-kind-call-signature">bulk<wbr/>SetXP</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">guildID</span>, <span class="tsd-kind-parameter">options</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/Constants.PUTBulkSetXPResponse.html" class="tsd-signature-type tsd-kind-interface">PUTBulkSetXPResponse</a><span class="tsd-signature-symbol">&gt;</span><a href="#bulkSetXP.bulkSetXP-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Bulk Set XP Members</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">guildID</span>: <span class="tsd-signature-type">string</span></h5>
+<div class="tsd-comment tsd-typography"><p>ID of the guild</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li>
+<li>
+<h5><span class="tsd-kind-parameter">options</span>: <a href="../interfaces/Constants.PUTBulkSetXPBody.html" class="tsd-signature-type tsd-kind-interface">PUTBulkSetXPBody</a></h5>
+<div class="tsd-comment tsd-typography"><p>Members to set XP</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/Constants.PUTBulkSetXPResponse.html" class="tsd-signature-type tsd-kind-interface">PUTBulkSetXPResponse</a><span class="tsd-signature-symbol">&gt;</span></h4>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L583">lib/routes/Guilds.ts:583</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="createBan" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>create<wbr/>Ban</span><a href="#createBan" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -176,7 +230,31 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="BannedMember.BannedMember.html" class="tsd-signature-type tsd-kind-class">BannedMember</a><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L224">lib/routes/Guilds.ts:224</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L235">lib/routes/Guilds.ts:235</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member"><a id="createCategory" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>create<wbr/>Category</span><a href="#createCategory" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="createCategory.createCategory-1"><span class="tsd-kind-call-signature">create<wbr/>Category</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">guildID</span>, <span class="tsd-kind-parameter">options</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildCategory.GuildCategory.html" class="tsd-signature-type tsd-kind-class">GuildCategory</a><span class="tsd-signature-symbol">&gt;</span><a href="#createCategory.createCategory-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Create a guild category.</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">guildID</span>: <span class="tsd-signature-type">string</span></h5>
+<div class="tsd-comment tsd-typography"><p>ID of the guild to create a category in.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li>
+<li>
+<h5><span class="tsd-kind-parameter">options</span>: <a href="../interfaces/Constants.POSTCreateCategoryBody.html" class="tsd-signature-type tsd-kind-interface">POSTCreateCategoryBody</a></h5>
+<div class="tsd-comment tsd-typography"><p>Options to create a category.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildCategory.GuildCategory.html" class="tsd-signature-type tsd-kind-class">GuildCategory</a><span class="tsd-signature-symbol">&gt;</span></h4>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L596">lib/routes/Guilds.ts:596</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="createChannel" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>create<wbr/>Channel</span><a href="#createChannel" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -215,7 +293,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L332">lib/routes/Guilds.ts:332</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L343">lib/routes/Guilds.ts:343</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="createGroup" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>create<wbr/>Group</span><a href="#createGroup" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -239,7 +317,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildGroup.GuildGroup.html" class="tsd-signature-type tsd-kind-class">GuildGroup</a><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L470">lib/routes/Guilds.ts:470</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L481">lib/routes/Guilds.ts:481</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="createRole" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>create<wbr/>Role</span><a href="#createRole" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -263,7 +341,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildRole.GuildRole.html" class="tsd-signature-type tsd-kind-class">GuildRole</a><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L408">lib/routes/Guilds.ts:408</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L419">lib/routes/Guilds.ts:419</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="createWebhook" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>create<wbr/>Webhook</span><a href="#createWebhook" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -292,7 +370,31 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Webhook.Webhook.html" class="tsd-signature-type tsd-kind-class">Webhook</a><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L248">lib/routes/Guilds.ts:248</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L259">lib/routes/Guilds.ts:259</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member"><a id="deleteCategory" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>delete<wbr/>Category</span><a href="#deleteCategory" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="deleteCategory.deleteCategory-1"><span class="tsd-kind-call-signature">delete<wbr/>Category</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">guildID</span>, <span class="tsd-kind-parameter">categoryID</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildCategory.GuildCategory.html" class="tsd-signature-type tsd-kind-class">GuildCategory</a><span class="tsd-signature-symbol">&gt;</span><a href="#deleteCategory.deleteCategory-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Delete a guild category.</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">guildID</span>: <span class="tsd-signature-type">string</span></h5>
+<div class="tsd-comment tsd-typography"><p>ID of the guild to create a category in.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li>
+<li>
+<h5><span class="tsd-kind-parameter">categoryID</span>: <span class="tsd-signature-type">number</span></h5>
+<div class="tsd-comment tsd-typography"><p>ID of the category you want to read.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildCategory.GuildCategory.html" class="tsd-signature-type tsd-kind-class">GuildCategory</a><span class="tsd-signature-symbol">&gt;</span></h4>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L634">lib/routes/Guilds.ts:634</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="deleteChannel" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>delete<wbr/>Channel</span><a href="#deleteChannel" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -311,7 +413,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L372">lib/routes/Guilds.ts:372</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L383">lib/routes/Guilds.ts:383</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="deleteGroup" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>delete<wbr/>Group</span><a href="#deleteGroup" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -335,7 +437,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L497">lib/routes/Guilds.ts:497</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L508">lib/routes/Guilds.ts:508</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="deleteRole" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>delete<wbr/>Role</span><a href="#deleteRole" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -359,7 +461,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L435">lib/routes/Guilds.ts:435</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L446">lib/routes/Guilds.ts:446</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="deleteWebhook" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>delete<wbr/>Webhook</span><a href="#deleteWebhook" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -383,7 +485,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L277">lib/routes/Guilds.ts:277</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L288">lib/routes/Guilds.ts:288</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="editChannel" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>edit<wbr/>Channel</span><a href="#editChannel" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -412,7 +514,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L356">lib/routes/Guilds.ts:356</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L367">lib/routes/Guilds.ts:367</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="editGroup" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>edit<wbr/>Group</span><a href="#editGroup" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -441,7 +543,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildGroup.GuildGroup.html" class="tsd-signature-type tsd-kind-class">GuildGroup</a><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L484">lib/routes/Guilds.ts:484</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L495">lib/routes/Guilds.ts:495</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="editMember" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>edit<wbr/>Member</span><a href="#editMember" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -470,7 +572,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L191">lib/routes/Guilds.ts:191</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L202">lib/routes/Guilds.ts:202</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="editRole" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>edit<wbr/>Role</span><a href="#editRole" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -499,7 +601,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildRole.GuildRole.html" class="tsd-signature-type tsd-kind-class">GuildRole</a><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L422">lib/routes/Guilds.ts:422</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L433">lib/routes/Guilds.ts:433</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="editWebhook" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>edit<wbr/>Webhook</span><a href="#editWebhook" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -528,7 +630,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Webhook.Webhook.html" class="tsd-signature-type tsd-kind-class">Webhook</a><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L264">lib/routes/Guilds.ts:264</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L275">lib/routes/Guilds.ts:275</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getBan" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Ban</span><a href="#getBan" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -552,7 +654,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="BannedMember.BannedMember.html" class="tsd-signature-type tsd-kind-class">BannedMember</a><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L123">lib/routes/Guilds.ts:123</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L134">lib/routes/Guilds.ts:134</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getBans" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Bans</span><a href="#getBans" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -571,7 +673,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="BannedMember.BannedMember.html" class="tsd-signature-type tsd-kind-class">BannedMember</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L133">lib/routes/Guilds.ts:133</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L144">lib/routes/Guilds.ts:144</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getGroup" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Group</span><a href="#getGroup" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -595,7 +697,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildGroup.GuildGroup.html" class="tsd-signature-type tsd-kind-class">GuildGroup</a><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L458">lib/routes/Guilds.ts:458</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L469">lib/routes/Guilds.ts:469</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getGroups" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Groups</span><a href="#getGroups" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -614,7 +716,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildGroup.GuildGroup.html" class="tsd-signature-type tsd-kind-class">GuildGroup</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L446">lib/routes/Guilds.ts:446</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L457">lib/routes/Guilds.ts:457</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getGuild" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Guild</span><a href="#getGuild" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -634,7 +736,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Guild.Guild.html" class="tsd-signature-type tsd-kind-class">Guild</a><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L64">lib/routes/Guilds.ts:64</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L75">lib/routes/Guilds.ts:75</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getMember" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Member</span><a href="#getMember" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -658,7 +760,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Member.Member.html" class="tsd-signature-type tsd-kind-class">Member</a><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L102">lib/routes/Guilds.ts:102</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L113">lib/routes/Guilds.ts:113</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getMemberPermission" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Member<wbr/>Permission</span><a href="#getMemberPermission" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -682,7 +784,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../enums/Constants.Permissions.html" class="tsd-signature-type tsd-kind-enum">Permissions</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L533">lib/routes/Guilds.ts:533</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L544">lib/routes/Guilds.ts:544</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getMembers" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Members</span><a href="#getMembers" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -701,7 +803,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Member.Member.html" class="tsd-signature-type tsd-kind-class">Member</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L112">lib/routes/Guilds.ts:112</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L123">lib/routes/Guilds.ts:123</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getRole" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Role</span><a href="#getRole" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -725,7 +827,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildRole.GuildRole.html" class="tsd-signature-type tsd-kind-class">GuildRole</a><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L396">lib/routes/Guilds.ts:396</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L407">lib/routes/Guilds.ts:407</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getRoles" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Roles</span><a href="#getRoles" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -744,7 +846,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildRole.GuildRole.html" class="tsd-signature-type tsd-kind-class">GuildRole</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L384">lib/routes/Guilds.ts:384</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L395">lib/routes/Guilds.ts:395</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getSubscription" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Subscription</span><a href="#getSubscription" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -768,7 +870,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildSubscription.GuildSubscription.html" class="tsd-signature-type tsd-kind-class">GuildSubscription</a><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L521">lib/routes/Guilds.ts:521</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L532">lib/routes/Guilds.ts:532</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getSubscriptions" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Subscriptions</span><a href="#getSubscriptions" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -787,7 +889,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildSubscription.GuildSubscription.html" class="tsd-signature-type tsd-kind-class">GuildSubscription</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L509">lib/routes/Guilds.ts:509</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L520">lib/routes/Guilds.ts:520</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getWebhook" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Webhook</span><a href="#getWebhook" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -811,7 +913,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Webhook.Webhook.html" class="tsd-signature-type tsd-kind-class">Webhook</a><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L75">lib/routes/Guilds.ts:75</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L86">lib/routes/Guilds.ts:86</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getWebhooks" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Webhooks</span><a href="#getWebhooks" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -835,7 +937,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Webhook.Webhook.html" class="tsd-signature-type tsd-kind-class">Webhook</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L86">lib/routes/Guilds.ts:86</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L97">lib/routes/Guilds.ts:97</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="memberAddGroup" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>member<wbr/>Add<wbr/>Group</span><a href="#memberAddGroup" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -859,7 +961,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L144">lib/routes/Guilds.ts:144</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L155">lib/routes/Guilds.ts:155</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="memberAddRole" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>member<wbr/>Add<wbr/>Role</span><a href="#memberAddRole" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -888,7 +990,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L167">lib/routes/Guilds.ts:167</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L178">lib/routes/Guilds.ts:178</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="memberRemoveGroup" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>member<wbr/>Remove<wbr/>Group</span><a href="#memberRemoveGroup" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -912,7 +1014,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L155">lib/routes/Guilds.ts:155</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L166">lib/routes/Guilds.ts:166</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="memberRemoveRole" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>member<wbr/>Remove<wbr/>Role</span><a href="#memberRemoveRole" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -941,7 +1043,31 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L179">lib/routes/Guilds.ts:179</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L190">lib/routes/Guilds.ts:190</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member"><a id="readCategory" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>read<wbr/>Category</span><a href="#readCategory" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="readCategory.readCategory-1"><span class="tsd-kind-call-signature">read<wbr/>Category</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">guildID</span>, <span class="tsd-kind-parameter">categoryID</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildCategory.GuildCategory.html" class="tsd-signature-type tsd-kind-class">GuildCategory</a><span class="tsd-signature-symbol">&gt;</span><a href="#readCategory.readCategory-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Read a guild category.</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">guildID</span>: <span class="tsd-signature-type">string</span></h5>
+<div class="tsd-comment tsd-typography"><p>ID of the guild to create a category in.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li>
+<li>
+<h5><span class="tsd-kind-parameter">categoryID</span>: <span class="tsd-signature-type">number</span></h5>
+<div class="tsd-comment tsd-typography"><p>ID of the category you want to read.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildCategory.GuildCategory.html" class="tsd-signature-type tsd-kind-class">GuildCategory</a><span class="tsd-signature-symbol">&gt;</span></h4>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L608">lib/routes/Guilds.ts:608</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="removeBan" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>remove<wbr/>Ban</span><a href="#removeBan" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -965,7 +1091,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L236">lib/routes/Guilds.ts:236</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L247">lib/routes/Guilds.ts:247</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="removeMember" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>remove<wbr/>Member</span><a href="#removeMember" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -989,7 +1115,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L212">lib/routes/Guilds.ts:212</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L223">lib/routes/Guilds.ts:223</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="setMemberXP" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>set<wbr/>MemberXP</span><a href="#setMemberXP" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1018,7 +1144,36 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L303">lib/routes/Guilds.ts:303</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L314">lib/routes/Guilds.ts:314</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member"><a id="updateCategory" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>update<wbr/>Category</span><a href="#updateCategory" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="updateCategory.updateCategory-1"><span class="tsd-kind-call-signature">update<wbr/>Category</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">guildID</span>, <span class="tsd-kind-parameter">categoryID</span>, <span class="tsd-kind-parameter">options</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildCategory.GuildCategory.html" class="tsd-signature-type tsd-kind-class">GuildCategory</a><span class="tsd-signature-symbol">&gt;</span><a href="#updateCategory.updateCategory-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Update a guild category.</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">guildID</span>: <span class="tsd-signature-type">string</span></h5>
+<div class="tsd-comment tsd-typography"><p>ID of the guild to create a category in.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li>
+<li>
+<h5><span class="tsd-kind-parameter">categoryID</span>: <span class="tsd-signature-type">number</span></h5>
+<div class="tsd-comment tsd-typography"><p>ID of the category you want to read.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li>
+<li>
+<h5><span class="tsd-kind-parameter">options</span>: <a href="../interfaces/Constants.PATCHUpdateCategoryBody.html" class="tsd-signature-type tsd-kind-interface">PATCHUpdateCategoryBody</a></h5>
+<div class="tsd-comment tsd-typography"><p>Options to update a category.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildCategory.GuildCategory.html" class="tsd-signature-type tsd-kind-class">GuildCategory</a><span class="tsd-signature-symbol">&gt;</span></h4>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L621">lib/routes/Guilds.ts:621</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="updateRolePermission" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>update<wbr/>Role<wbr/>Permission</span><a href="#updateRolePermission" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1047,7 +1202,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="GuildRole.GuildRole.html" class="tsd-signature-type tsd-kind-class">GuildRole</a><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/78279f3/lib/routes/Guilds.ts#L546">lib/routes/Guilds.ts:546</a></li></ul></aside></li></ul></section></section></div>
+<li>Defined in <a href="https://github.com/DinographicPixels/TouchGuild/blob/09a3405/lib/routes/Guilds.ts#L557">lib/routes/Guilds.ts:557</a></li></ul></aside></li></ul></section></section></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
@@ -1068,11 +1223,15 @@
 <li><a href="#constructor" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-512"></use></svg><span>constructor</span></a></li>
 <li><a href="#awardMember" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>award<wbr/>Member</span></a></li>
 <li><a href="#awardRole" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>award<wbr/>Role</span></a></li>
+<li><a href="#bulkAwardXP" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>bulk<wbr/>AwardXP</span></a></li>
+<li><a href="#bulkSetXP" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>bulk<wbr/>SetXP</span></a></li>
 <li><a href="#createBan" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>create<wbr/>Ban</span></a></li>
+<li><a href="#createCategory" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>create<wbr/>Category</span></a></li>
 <li><a href="#createChannel" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>create<wbr/>Channel</span></a></li>
 <li><a href="#createGroup" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>create<wbr/>Group</span></a></li>
 <li><a href="#createRole" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>create<wbr/>Role</span></a></li>
 <li><a href="#createWebhook" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>create<wbr/>Webhook</span></a></li>
+<li><a href="#deleteCategory" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>delete<wbr/>Category</span></a></li>
 <li><a href="#deleteChannel" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>delete<wbr/>Channel</span></a></li>
 <li><a href="#deleteGroup" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>delete<wbr/>Group</span></a></li>
 <li><a href="#deleteRole" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>delete<wbr/>Role</span></a></li>
@@ -1100,9 +1259,11 @@
 <li><a href="#memberAddRole" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>member<wbr/>Add<wbr/>Role</span></a></li>
 <li><a href="#memberRemoveGroup" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>member<wbr/>Remove<wbr/>Group</span></a></li>
 <li><a href="#memberRemoveRole" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>member<wbr/>Remove<wbr/>Role</span></a></li>
+<li><a href="#readCategory" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>read<wbr/>Category</span></a></li>
 <li><a href="#removeBan" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>remove<wbr/>Ban</span></a></li>
 <li><a href="#removeMember" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>remove<wbr/>Member</span></a></li>
 <li><a href="#setMemberXP" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>set<wbr/>MemberXP</span></a></li>
+<li><a href="#updateCategory" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>update<wbr/>Category</span></a></li>
 <li><a href="#updateRolePermission" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>update<wbr/>Role<wbr/>Permission</span></a></li></ul></div></details></div>
 <div class="site-menu">
 <nav class="tsd-navigation"><a href="../index.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-4"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-namespace)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6"></rect><path d="M9.33 16V7.24H10.77L13.446 14.74C13.43 14.54 13.41 14.296 13.386 14.008C13.37 13.712 13.354 13.404 13.338 13.084C13.33 12.756 13.326 12.448 13.326 12.16V7.24H14.37V16H12.93L10.266 8.5C10.282 8.692 10.298 8.936 10.314 9.232C10.33 9.52 10.342 9.828 10.35 10.156C10.366 10.476 10.374 10.784 10.374 11.08V16H9.33Z" fill="var(--color-text)"></path></g></svg><span>Touch<wbr/>Guild</span></a>
@@ -1141,6 +1302,7 @@
 <li><a href="../modules/GatewayEventHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Gateway<wbr/>Event<wbr/>Handler</span></a></li>
 <li><a href="../modules/GatewayHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Gateway<wbr/>Handler</span></a></li>
 <li><a href="../modules/Guild.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Guild</span></a></li>
+<li><a href="../modules/GuildCategory.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Guild<wbr/>Category</span></a></li>
 <li><a href="../modules/GuildChannel.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Guild<wbr/>Channel</span></a></li>
 <li><a href="../modules/GuildGroup.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Guild<wbr/>Group</span></a></li>
 <li><a href="../modules/GuildHandler.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>Guild<wbr/>Handler</span></a></li>
