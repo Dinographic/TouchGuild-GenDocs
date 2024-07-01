@@ -22,7 +22,7 @@ h1, h2, a {
 }
 
 a:hover {
-  color: rgb(173, 86, 255);
+  color: rgb(173, 86, 255) !important;
 }
 
 div#main {
@@ -39,4 +39,3 @@ span.spacer {
 a:visited {
   color: whitesmoke;
 }
-  
